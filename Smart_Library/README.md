@@ -1,4 +1,4 @@
-#Smart Library System
+Smart Library System
 
 The Smart Library System is an IoT-integrated project designed to automate and enhance core library functions through sensor-driven detection, actuator response, and real-time data transmission. The system uses a range of components—including PIR sensors, ultrasonic and TCRT5000 detectors, MFRC522 RFID readers, servo motors, and LCD displays—controlled by **three Arduino Uno R3 boards** and unified through an **ESP32 DevKit V1** for cloud communication.
 
