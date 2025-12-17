@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us | Rustic Rhythms</title>
+	
+	<!-- internal CSS styling  -->
+	<style>
+		:root {
+		  --offwhite: #FFFFF0;
+		  --cream: #FFE6A7;
+		  --darkbrown: #432818;
+		  --mediumbrown: #5A3A1E;
+		  --darkestbrown: #2C1A0f;
+		  --orange: #99582A;
+		  --dark: #120D0A;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		.main-content {
+			text-align: center;
+		}
+
+		.top-bar {
+			z-index: 1000; /* higher than hero*/
+			position: relative; 
+			padding: 0.9rem 0.5rem;
+			background: var(--darkbrown);
+			border-bottom: 1px solid var(--cream);
+			height: 50px;
+		}
+
+		.top-bar-content {
+			display: flex;
+			justify-content: space-between;
+			padding: 0 20px;
+			align-items: center;
+			max-width: 1200px;
+			height: 100%;
+			margin: 0 auto;
+		}
+
+		.top-logo {
+			height: 45px;
+			width: auto;
+			display: flex;
+			align-items: center;
+		}
+
+		.navbar {
+			padding: 0.4rem 2rem;
+			background: rgba(255, 255, 240, 0.35);
+			position: sticky;
+			top: 0;
+			z-index: 900;
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(2px);
+			-webkit-backdrop-filter: blur(2px); /* for safari compatibility */
+		}
+
+		.nav-links {
+			color: var(--dark);
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			gap: 3rem;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.nav-links a {
+			text-decoration: none;
+			color: var(--dark);
+			font-weight: 500;
+			letter-spacing: 1px;
+			padding: 0.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: all 0.2s ease;
+		}
+
+		.nav-links a:hover {
+			color: var(--orange);
+		}
+
+		.nav-links li:not(.logo-item) a {
+			padding-top: 0.7rem; 
+			transform: translateY(8px); 
+		}
+
+		.logo-item {
+			align-self: center; 
+		}
+
+		.logo-text:hover {
+			color: var(--offwhite);
+			opacity: 0.9;
+		}
+
+		.logo-text {
+			font-family: 'Arial Black', sans-serif;
+			color: var(--offwhite);
+			font-size: 1.8rem;
+			font-weight: 900;
+			letter-spacing: 2px;
+			padding: 0 1rem;
+		}
+
+
+		.search-container {
+		  margin-left: auto;
+		  padding-right: 0;
+		  display: flex;
+		  align-items: center;
+		}
+		.search-bar {
+			padding: 0.5rem;
+			border: 1px solid var(--darkbrown);
+			border-radius: 10px 10px 10px 10px;
+			min-width: 200px;
+			width: 100%;
+		}
+
+		/* ======= side navigation======== */
+		.side-nav {
+			position: fixed;
+			top:40%;
+			left:5px;
+			padding:10px;
+			z-index: 1000;
+			opacity: 50%;
+			transform: translateX(-20px);
+			transition: opacity 0.4s ease, transform 0.4s ease;
+			text-align: left;
+
+		}
+
+		.side-nav:hover {
+		  opacity: 1;
+		  transform: translateX(0);
+		}
+
+		.side-nav::before {
+			content: '';
+			position: absolute;
+			top:50%;
+			transform: translateY(-50%);
+			height:200px;
+			left:10px;
+			width:2px;
+			background-color: black;
+		}
+
+		.side-nav ul {
+			list-style:none;
+			margin:0;
+			padding:0;
+			position:relative;
+
+		}
+
+		.side-nav li {
+			position:relative;
+			margin: 20px 0;
+			padding-left:22px;
+		}
+
+		.side-nav li::before {
+			content: '';
+			position:absolute;
+			left:8px;
+			top:50%;
+			transform:translateY(-50%);
+			width:7px;
+			height:7px;
+			background-color: #5A3A1E;
+			border-radius: 50%;
+			border: 1px solid black;
+			box-shadow: 0 0 0 1px #5A3A1E;
+		}
+
+		.side-nav a {
+			text-decoration: none;
+			color: black;
+			font-family:sans-serif;
+			font-size: 12px;
+			font-weight: 600;
+			background-color: transparent;
+			padding:0;
+			border-radius:0;
+			transition: background-color 0.3s, color 0.3s;
+			display: inline;
+			white-space: nowrap;
+			text-align: left;
+		}
+
+		.side-nav a:hover {
+			color: var(--mediumbrown);
+		}
+		   
+		footer {
+			background: #120D0A;
+			color: #FFFFF0;
+			padding: 3rem 2rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
+			width: 100%;
+		}
+
+		.social-icons {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: wrap;
+			
+		}
+
+		.social-icons a {
+			color: #FFFFF0;
+			text-decoration: none;
+		}
+
+		.copyright {
+			grid-column: 1 / -1;
+			text-align: center;
+			padding-top: 2rem;
+			border-top: 1px solid #444;
+		}
+			
+		.user-actions {
+			display: flex;
+			align-items: center;
+			gap: 1.5rem;
+			margin-left: 1rem;
+		}
+
+		.action-icon {
+			width: 30px;
+			height: 30px;
+		}
+
+		.action-icon:hover {
+		}
+
+
+	</style>
+</head>
+
+
+<body style="font-family:sans-serif; background-color: white; margin:0; padding:0; min-height: 100vh; display: flex; flex-direction: column; font-family:sans-serif;">
+
+<!-- top bar  -->
+<div class="top-bar">
+  <div class="top-bar-content">
+    <a href="index.html" class="logo-link">
+      <img src="images/logo.png" alt="Rustic Rhythms Logo" class="top-logo">
+    </a>
+    <div class="search-container">
+	<img src="images/search.png" alt="search" style="width: auto; height: 50px;">
+      <input type="text" placeholder="Search..." class="search-bar">
+    </div>
+    <div class="user-actions">
+      <a href="login.html" class="user-icon">
+        <img src="images/profile.png" alt="Profile" class="action-icon">
+      </a>
+      <a href="checkout.html" class="cart-icon">
+        <img src="images/cart.png" alt="Cart" class="action-icon">
+      </a>
+    </div>
+  </div>
+</div>
+ 
+<!-- nav bar  -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#">What's New</a></li>
+        <li><a href="storefront/store.xml">Store</a></li>
+      <li class="logo-item">
+        <a href="index.html" class="logo-text"><strong>RUSTIC RHYTHMS</strong></a>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+
+<!-- page navigation -->
+<div class="side-nav">
+    <ul>
+        <li><a href="#FAQ">Inquiry</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</div>
+
+
+<!-- contact form -->
+<section id="FAQ">
+	<h1 style="text-align:center; font-family:sans-serif; color:#99582A; margin:40px auto">Contact Us</h1>
+	<p style ="text-align:center; font-family:sans-serif;">We'd love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out.</p>
+	<div style="background-color:#F9F5F2; padding:35px; border-radius:15px; width:35%; margin: 20px auto; text-align: center;">
+		
+		<label style="display:block; text-align:left; margin-left:40px; font-weight:bold; font-family:sans-serif;">Name</label>
+		<input type="text" style="width:80%; padding:8px; border:1px solid #99582A; background-color:#E1DBDB; display:block; margin: 5px auto;">
+
+		<label style="display:block; text-align:left; margin-left:40px; font-weight:bold; font-family:sans-serif;">Email</label>
+		<input type="email" style="width:80%; padding:8px; border:1px solid #99582A; background-color:#E1DBDB; display:block; margin: 5px auto;">
+
+		<label style="display:block; text-align:left; margin-left:40px; font-weight:bold; font-family:sans-serif;">Phone (optional)</label>
+		<input type="text" style="width:80%; padding:8px; border:1px solid #99582A; background-color:#E1DBDB; display:block; margin: 5px auto;">
+
+		<label style="display:block; text-align:left; margin-left:40px; font-weight:bold; font-family:sans-serif;">Message</label>
+		<textarea style="width:80%; padding:8px; border:1px solid #99582A; background-color:#E1DBDB; display:block; margin: 5px auto; height: 100px;"></textarea>
+
+		<br>
+		<button style="background-color: #99582A; color: black; border: none; padding: 10px 20px; border-radius: 30px; cursor: pointer; width:90%;">Send Message</button>
+
+		<br><br>
+		<hr style="border: none; height: 1px; background-color: black; width: 82%;">
+		<br>
+
+		<label style="display:block; text-align:center; font-family:sans-serif;">
+			Need more help?  
+			<span style="color:black; text-decoration: underline; font-weight: bold; cursor: pointer;">
+				Visit our FAQ
+			</span>
+		</label>
+	  </div>
+ </section>
+  
+<!-- contact information -->
+<div id="contact">
+  <div style="width:60%; margin:30px auto; margin-bottom: 70px;padding:30px;border:2px solid #99582A; background-color:#FFF;border-radius:5px;text-align:left;">
+    <p style="margin-bottom: 30px;"><strong style="display: block; margin-bottom: 10px;">Phone Number</strong>+971 50 111 0000</p>
+    <p style="margin-bottom: 30px;"><strong style="display: block; margin-bottom: 10px;">Email</strong>support@rusticrhythms.com</p>
+    <p style="margin-bottom: 30px;"><strong style="display: block; margin-bottom: 10px;">Office Address</strong>123 Melody Lane, Harmony District, Music City, MC 45678, United Arab Emirates</p>
+    
+    <p><strong style="display: block; margin-bottom: 10px;">Follow us on social media</strong></p>
+    <ul>
+      <li><span>Facebook</span> <span style="margin-left: 40px;">official_rustic.rhythms</span></li>
+      <li><span>Instagram</span> <span style="margin-left: 40px;">official_rustic.rhythms</span></li>
+      <li><span>Tiktok</span> <span style="margin-left: 70px;">official_rustic.rhythms</span></li>
+    </ul>
+    <p><strong style="display: block; margin-bottom: 10px;">Business Hours</strong></p>
+    <ul>
+      <li>9AM to 10PM | Mon to Fri</li>
+	  <li>9AM to 8PM | Sat</li>
+      <li>Closed - Sunday</li>
+    </ul>
+  </div>
+</div>
+
+<!-- footer -->
+<footer style="margin-top:50px;">
+    <div class="footer-left">
+        <p><strong>Rustic Rhythms</strong></p>
+        <p>123 Melody Lane, Harmony District, Music City, MC 45678, United Arab Emirates</p>
+    </div>
+    <div class="footer-right">
+        <div class="social-icons">
+			<img src="images/insta.png" alt="Instagram" width="70" height="70">
+			<img src="images/facebook.png" alt="Facebook" width="70" height="70">
+			<img src="images/youtube.png" alt="Youtube" width="70" height="70">
+			<img src="images/twitter.png" alt="Twitter" width="70" height="70">
+			<img src="images/linkedin.png" alt="Linkedin" width="70" height="70">
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; Copyright Rustic Rhythms 2025</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

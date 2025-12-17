@@ -1,0 +1,18 @@
+<!ELEMENT store (genre+)>
+<!ELEMENT genre (details, album+)>
+<!ATTLIST genre name CDATA #REQUIRED>
+<!ELEMENT album (title, cover, artist, price, tracklist+, description)>
+<!ATTLIST album id CDATA #REQUIRED>
+<!ELEMENT tracklist (track+)>
+<!ELEMENT details (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT cover (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT track (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+
+
+
+

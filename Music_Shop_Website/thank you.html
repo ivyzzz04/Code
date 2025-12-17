@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thank you | Rustic Rhythms</title>
+	
+	<!-- internal CSS styling  -->
+	<style>
+		:root {
+		  --offwhite: #FFFFF0;
+		  --cream: #FFE6A7;
+		  --darkbrown: #432818;
+		  --mediumbrown: #5A3A1E;
+		  --darkestbrown: #2C1A0f;
+		  --orange: #99582A;
+		  --dark: #120D0A;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+
+		.top-bar {
+			z-index: 1000; /* higher than hero*/
+			position: relative; 
+			padding: 0.9rem 0.5rem;
+			background: var(--darkbrown);
+			border-bottom: 1px solid var(--cream);
+			height: 50px;
+		}
+
+		.top-bar-content {
+			display: flex;
+			justify-content: space-between;
+			padding: 0 20px;
+			align-items: center;
+			max-width: 1200px;
+			height: 100%;
+			margin: 0 auto;
+		}
+
+		.top-logo {
+			height: 45px;
+			width: auto;
+			display: flex;
+			align-items: center;
+		}
+
+		.navbar {
+			padding: 0.4rem 2rem;
+			background: rgba(255, 255, 240, 0.35);
+			position: sticky;
+			top: 0;
+			z-index: 900;
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(2px);
+			-webkit-backdrop-filter: blur(2px); /* for safari compatibility */
+		}
+
+		.nav-links {
+			color: var(--dark);
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			gap: 3rem;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.nav-links a {
+			text-decoration: none;
+			color: var(--dark);
+			font-weight: 500;
+			letter-spacing: 1px;
+			padding: 0.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: all 0.2s ease;
+		}
+
+		.nav-links a:hover {
+			color: var(--orange);
+		}
+
+		.nav-links li:not(.logo-item) a {
+			padding-top: 0.7rem; 
+			transform: translateY(8px); 
+		}
+
+		.logo-item {
+			align-self: center; 
+		}
+
+		.logo-text:hover {
+			color: var(--offwhite);
+			opacity: 0.9;
+		}
+
+		.logo-text {
+			font-family: 'Arial Black', sans-serif;
+			color: var(--offwhite);
+			font-size: 1.8rem;
+			font-weight: 900;
+			letter-spacing: 2px;
+			padding: 0 1rem;
+		}
+
+
+		.search-container {
+		  margin-left: auto;
+		  padding-right: 0;
+		  display: flex;
+		  align-items: center;
+		}
+		.search-bar {
+			padding: 0.5rem;
+			border: 1px solid var(--darkbrown);
+			border-radius: 10px 10px 10px 10px;
+			min-width: 200px;
+			width: 100%;
+		}
+
+		.content {
+			flex-grow: 1;  /* Makes sure the content expands before the footer */
+			padding-bottom: 50px;
+		}
+
+		footer {
+			background: #120D0A;
+			color: #FFFFF0;
+			padding: 3rem 2rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
+			width: 100%;
+		}
+
+		.social-icons {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: wrap;
+			
+		}
+
+		.social-icons a {
+			color: #FFFFF0;
+			text-decoration: none;
+		}
+
+		.copyright {
+			grid-column: 1 / -1;
+			text-align: center;
+			padding-top: 2rem;
+			border-top: 1px solid #444;
+		}
+		
+		.user-actions {
+			display: flex;
+			align-items: center;
+			gap: 1.5rem;
+			margin-left: 1rem;
+		}
+
+		.action-icon {
+			width: 30px;
+			height: 30px;
+		}
+
+		.action-icon:hover {
+		}
+
+	</style>
+</head>
+
+
+<body style="background-color: white; margin:0; padding:0; min-height: 100vh; display: flex; flex-direction: column; font-family:sans-serif;">
+
+<!-- top bar  -->
+<div class="top-bar">
+  <div class="top-bar-content">
+    <a href="index.html" class="logo-link">
+      <img src="images/logo.png" alt="Rustic Rhythms Logo" class="top-logo">
+    </a>
+    <div class="search-container">
+	<img src="images/search.png" alt="search" style="width: auto; height: 50px;"> 
+      <input type="text" placeholder="Search..." class="search-bar">  
+    </div>
+    <div class="user-actions">
+      <a href="login.html" class="user-icon">
+        <img src="images/profile.png" alt="Profile" class="action-icon">
+      </a>
+      <a href="checkout.html" class="cart-icon">
+        <img src="images/cart.png" alt="Cart" class="action-icon">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- nav bar  -->
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#">What's New</a></li>
+    <li><a href="storefront/store.xml">Store</a></li>
+    <li class="logo-item">
+      <a href="index.html" class="logo-text"><strong>RUSTIC RHYTHMS</strong></a>
+    </li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- thank you section with image and text  -->
+<div style="text-align: center;">
+<br>
+<img src ="images/thanks.png" alt="thankk you" style="width: 20%; height: auto; ">
+<h2 style="font-family:sans-serif; color:gray; font-size:25px;margin:8px;">Your payment was successful</h2>
+<p style="font-family:sans-serif; color:gray; font-size:15px; margin:0;">Thank you for your payment. We will </p>
+<p style="font-family:sans-serif; color:gray; font-size:15px;margin:0;">be in contact with more details shortly.</p>
+</div>
+
+
+<!-- footer  -->
+<footer style="margin-top:50px;">
+    <div class="footer-left">
+        <p><strong>Rustic Rhythms</strong></p>
+		<br>
+        <p>123 Melody Lane, Harmony District, Music City, MC 45678, United Arab Emirates</p>
+    </div>
+    <div class="footer-right">
+        <div class="social-icons">
+			<img src="images/insta.png" alt="Instagram" width="70" height="70">
+			<img src="images/facebook.png" alt="Facebook" width="70" height="70">
+			<img src="images/youtube.png" alt="Youtube" width="70" height="70">
+			<img src="images/twitter.png" alt="Twitter" width="70" height="70">
+			<img src="images/linkedin.png" alt="Linkedin" width="70" height="70">
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; Copyright Rustic Rhythms 2025</p>
+    </div>
+</footer>

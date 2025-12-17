@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="album.xsl"?>
+<!DOCTYPE store SYSTEM "../storefront/store.dtd">
+
+<store>
+	<music:genre name = "Pop" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>A genre known for catchy melodies and upbeat rhythms, Pop music spans decades with chart-topping hits and iconic artists, appealing to a wide audience with vibrant sounds and memorable lyrics.</music:details>
+		<music:album id="1">
+			<music:title>Norman F Rockwell!</music:title>
+			<music:cover>../images/songs/image89.png</music:cover>
+			<music:artist>Lana Del Rey</music:artist>
+			<music:price>AED 230</music:price>
+			<music:tracklist>
+				<music:track>Norman F Rockwell</music:track>
+				<music:track>Mariners Apartment Complex</music:track>
+				<music:track>Venice B</music:track>
+				<music:track>F it I love you</music:track>
+				<music:track>Doin' Time</music:track>
+				<music:track>Love song</music:track>
+				<music:track>Cinnamon Girl</music:track>
+				<music:track>How to disappear</music:track>
+				<music:track>California</music:track>
+				<music:track>The Next Best American Record</music:track>
+				<music:track>The greatest</music:track>
+				<music:track>Bartender</music:track>
+				<music:track>Happiness is a butterfly</music:track>
+				<music:track>hope is a dangerous thing for a woman like me to have - but i have it</music:track>
+			</music:tracklist>
+			<music:description>Norman F Rockwell! (abbreviated to NFR! in some releases) is the sixth studio music:album by American singer-songwriter Lana Del Rey, released on August 30, 2019, by Interscope and Polydor Records. The music:album was primarily produced by Del Rey and Jack Antonoff, with additional contributions from Zach Dawes, Andrew Watt, and longtime Del Rey collaborator Rick Nowels. Musically, Norman F Rockwell! explored a soft rock sound featuring psych-rock elements, piano ballads, and references to various classic rock artists. The mtitle of the album is a reference to painter and illustrator Norman Rockwell.</music:description>
+		</music:album>
+		
+		<music:album id="2">
+			<music:title>1989</music:title>
+			<music:cover>../images/songs/image27.png</music:cover>
+			<music:artist>Taylor Swift</music:artist>
+			<music:price>AED 315</music:price>
+			<music:tracklist>
+				<music:track>Welcome to New York</music:track>
+				<music:track>Blank Space</music:track>
+				<music:track>Style</music:track>
+				<music:track>Out of the Woods</music:track>
+				<music:track>All You Had to Do Was Stay</music:track>
+				<music:track>Shake It Off</music:track>
+				<music:track>I Wish You Would</music:track>
+				<music:track>Bad Blood</music:track>
+				<music:track>Wildest Dreams</music:track>
+				<music:track>How You Get the Girl</music:track>
+				<music:track>This Love</music:track>
+				<music:track>I Know Places</music:track>
+				<music:track>Clean</music:track>
+			</music:tracklist>
+			<music:description>1989 is the fifth studio album by the American singer-songwriter Taylor Swift. It was released on October 27, 2014, by Big Machine Records. titled after Swift's birth year as a symbolic rebirth, the album recalibrated her music:artistic identity from country music to pop.</music:description>
+		</music:album>
+		
+		<music:album id="3">
+			<music:title>Anti</music:title>
+			<music:cover>../images/songs/image58.png</music:cover>
+			<music:artist>Rihanna</music:artist>
+			<music:price>AED 275</music:price>
+			<music:tracklist>
+				<music:track>Consideration</music:track>
+				<music:track>James Joint</music:track>
+				<music:track>Kiss It Better</music:track>
+				<music:track>Work</music:track>
+				<music:track>Desperado</music:track>
+				<music:track>Woo</music:track>
+				<music:track>Needed Me</music:track>
+				<music:track>Yeah, I Said It</music:track>
+				<music:track>Same Ol' Mistakes</music:track>
+				<music:track>Never Ending</music:track>
+				<music:track>Love on the Brain</music:track>
+				<music:track>Higher</music:track>
+				<music:track>Close to You</music:track>
+				<music:track>Goodnight Gotham</music:track>
+				<music:track>Pose[Explicit]</music:track>
+				<music:track>S With Me [Explicit]</music:track>
+			</music:tracklist>
+			<music:description>Anti is the eighth studio album by Barbadian singer Rihanna. It was released on 28 January 2016 by Roc Nation and Westbury Road. Rihanna started recording in 2014 after departing from Def Jam Recordings, who had released all of her albums since her 2005 debut. As executive producer, Rihanna recorded Anti with producers including Jeff Bhasker, Boi-1da, DJ Mustard, Hit-Boy, Brian Kennedy, Timbaland and No I.D., at studios in Canada, the United States and France.</music:description>
+		</music:album>
+		
+		<music:album id="4">
+			<music:title>Short n' Sweet</music:title>
+			<music:cover>../images/songs/image3.png</music:cover>
+			<music:artist>Sabrina Carpenter</music:artist>
+			<music:price>AED 390</music:price>
+			<music:tracklist>
+				<music:track>Taste</music:track>
+				<music:track>Good Graces</music:track>
+				<music:track>Coincidence</music:track>
+				<music:track>Espresso</music:track>
+				<music:track>Slim Pickins</music:track>
+				<music:track>Lie To Girls</music:track>
+				<music:track>Please Please Please</music:track>
+				<music:track>Sharpest Tool</music:track>
+				<music:track>Bed Chem</music:track>
+				<music:track>Dumb &amp; Poetic</music:track>
+				<music:track>Juno</music:track>
+				<music:track>Don't Smile</music:track>
+			</music:tracklist>
+			<music:description>Short n' Sweet is the sixth studio music:album by American singer Sabrina Carpenter. It was released on August 23, 2024, through Island Records. Primarily a pop record with country, folk, disco, bubblegum, rock and R&amp;B influences, Short n' Sweet was produced by Julian Bunetta, John Ryan, Ian Kirkpatrick, and Jack Antonoff. The music:album explores Carpenter's love life and her perspectives on 2020s dating. Its music:title is a reference to the emotional impact of her shortest romantic relationships, as well as her short stature and the music:album's brief runtime.</music:description>
+		</music:album>
+		
+		<music:album id="5">
+			<music:title>BRAT</music:title>
+			<music:cover>../images/songs/image38.png</music:cover>
+			<music:artist>Charli xcx</music:artist>
+			<music:price>AED 350</music:price>
+			<music:tracklist>
+				<music:track>360</music:track>
+				<music:track>Club classics</music:track>
+				<music:track>Sympathy is a knife</music:track>
+				<music:track>I might say something stupid</music:track>
+				<music:track>Talk talk</music:track>
+				<music:track>Everuthing is romantic</music:track>
+				<music:track>Rewind</music:track>
+				<music:track>So I</music:track>
+				<music:track>Girl, so confusing</music:track>
+				<music:track>Apple</music:track>
+				<music:track>B2b</music:track>
+				<music:track>Mean girls</music:track>
+				<music:track>I think about it all the time</music:track>
+				<music:track>365</music:track>
+			</music:tracklist>
+			<music:description>Brat is the sixth studio music:album by English singer Charli XCX, released through Atlantic Records on 7 June 2024. It features production by Charli XCX, her longtime executive producer A. G. Cook, Finn Keane, Cirkut, her partner George Daniel, and others. The music:album draws influence from the 2000s English rave music scene, with a more aggressive club sound than her previous music:album, Crash (2022).</music:description>
+		</music:album>
+		
+		<music:album id="6">
+			<music:title>GUTS</music:title>
+			<music:cover>../images/songs/image64.png</music:cover>
+			<music:artist>Olivia Rodrigo</music:artist>
+			<music:price>AED 285</music:price>
+			<music:tracklist>
+				<music:track>all-american b*tch</music:track>
+				<music:track>bad idea right?</music:track>
+				<music:track>vampire</music:track>
+				<music:track>lacy</music:track>
+				<music:track>ballad of a homescholled girl</music:track>
+				<music:track>making the bed</music:track>
+				<music:track>logical</music:track>
+				<music:track>get him back!</music:track>
+				<music:track>love is embarassing</music:track>
+				<music:track>the grudge</music:track>
+				<music:track>pretty isn't pretty</music:track>
+				<music:track>teenage dream</music:track>
+			</music:tracklist>
+			<music:description>Guts is the second studio music:album by American singer-songwriter Olivia Rodrigo, released on September 8, 2023, through Geffen Records. It was written and recorded with Rodrigo working closely alongside Dan Nigro, the producer and multi-instrumentalist of her debut music:album Sour (2021). Inspired by the period of time immediately following Sour's success, Rodrigo conceived Guts hoping to reflect the process of maturity she experienced toward the end of her teenage years.</music:description>
+		</music:album>
+		
+		<music:album id="7">
+			<music:title>Happier Than Ever</music:title>
+			<music:cover>../images/songs/image71.png</music:cover>
+			<music:artist>Billi Eilish</music:artist>
+			<music:price>AED 245</music:price>
+			<music:tracklist>
+				<music:track>Getting Older</music:track>
+				<music:track>I Didn't Change My Number</music:track>
+				<music:track>Billie Bossa Nova</music:track>
+				<music:track>my future</music:track>
+				<music:track>Oxytocin</music:track>
+				<music:track>GOLDWING</music:track>
+				<music:track>Lost Cause</music:track>
+				<music:track>Halley's Comet</music:track>
+				<music:track>Not My Responsibility</music:track>
+				<music:track>OverHeated</music:track>
+				<music:track>Everybody Dies</music:track>
+				<music:track>Your Power</music:track>
+				<music:track>NDA</music:track>
+				<music:track>Therefore I Am</music:track>
+				<music:track>Happier Than Ever</music:track>
+				<music:track>Male Fantasy</music:track>
+			</music:tracklist>
+			<music:description>Happier Than Ever is the second studio music:album by American singer-songwriter Billie Eilish, released by Darkroom and Interscope Records on July 30, 2021. Eilish co-wrote the music:album with her brother and frequent collaborator Finneas O'Connell, who also produced the music:album and played every instrument. Eilish cited self-reflection during the COVID-19 pandemic as the biggest inspiration for the record.</music:description>
+		</music:album>
+		
+		<music:album id="8">
+			<music:title>Dawn FM</music:title>
+			<music:cover>../images/songs/image80.png</music:cover>
+			<music:artist>The Weeknd</music:artist>
+			<music:price>AED 370</music:price>
+			<music:tracklist>
+				<music:track>Dawn FM</music:track>
+				<music:track>Gasoline</music:track>
+				<music:track>How Do I Make You Love Me?</music:track>
+				<music:track>Take My Breath</music:track>
+				<music:track>Sacrifice</music:track>
+				<music:track>Out of Time</music:track>
+				<music:track>Here We Go... Again (feat. Tyler, the Creator)</music:track>
+				<music:track>Best Friens]ds</music:track>
+				<music:track>Is There Someone Else?</music:track>
+				<music:track>Starry Eyes</music:track>
+				<music:track>Every Angel is Terrifying</music:track>
+				<music:track>Don't Break My Heart</music:track>
+				<music:track>I Heard You're Married (feat. Lil Wayne)</music:track>
+				<music:track>Less Than Zero</music:track>
+				<music:track>Phantom Regret by Jim</music:track>
+			</music:tracklist>
+			<music:description>Dawn FM is the fifth studio music:album by Canadian singer-songwriter the Weeknd. It was released on January 7, 2022, by XO and Republic Records. The music:album contains guest appearances by Tyler, the Creator, Lil Wayne, and Swedish House Mafia and narration by Jim Carrey, Quincy Jones, and Josh Safdie.</music:description>
+		</music:album>
+		
+		<music:album id="9">
+			<music:title>THE FIRST TIME</music:title>
+			<music:cover>../images/songs/image22.png</music:cover>
+			<music:artist>The Kid LAROI</music:artist>
+			<music:price>AED 310</music:price>
+			<music:tracklist>
+				<music:track>SORRY</music:track>
+				<music:track>BLEED</music:track>
+				<music:track>I THOUGHT THAT I NEEDED YOU</music:track>
+				<music:track>WHERE DO YOU SLEEP?</music:track>
+				<music:track>TOO MUCH</music:track>
+				<music:track>TEAR ME APART</music:track>
+				<music:track>STRANGERS (Interlude)</music:track>
+				<music:track>NIGHTS LIKE THIS</music:track>
+				<music:track>WHAT'S THE MOVE?(feat.Future and BabyDrill)</music:track>
+				<music:track>STRANGERS PT 2 (Interlude)</music:track>
+				<music:track>CALL ME INSTEAD (feat.YoungBoy Never Broke Again &amp; Robert Glasper) </music:track>
+				<music:track>DESERVE YOU</music:track>
+				<music:track>WHAT WENT WRONG???</music:track>
+				<music:track>THE LINE (feat. d4vd)</music:track>
+				<music:track>WHAT JUST HAPPENED</music:track>
+				<music:track>YOU</music:track>
+				<music:track>LOVE AGAIN</music:track>
+				<music:track>WHERE DOES YOUR SPIRIT GO?</music:track>
+				<music:track>YOU NEVER FORGET YOUR FIRST TIME...</music:track>
+				<music:track>KIDS ARE GROWING UP</music:track>
+			</music:tracklist>
+			<music:description>The First Time is the debut studio music:album by Australian rapper and singer the Kid Laroi. It was released on 10 November 2023 through Columbia, with the deluxe edition being released on 9 August 2024. The music:album contains guest appearances from Jungkook, Central Cee, Future, BabyDrill, YoungBoy Never Broke Again, Robert Glasper, and D4vd.</music:description>
+		</music:album>
+		
+		<music:album id="10">
+			<music:title>Kid Krow</music:title>
+			<music:cover>../images/songs/image18.png</music:cover>
+			<music:artist>Conan Gray</music:artist>
+			<music:price>AED 299</music:price>
+			<music:tracklist>
+				<music:track>Comfort Crowd</music:track>
+				<music:track>Wish You Were Sober</music:track>
+				<music:track>Maniac</music:track>
+				<music:track>(Online Love)</music:track>
+				<music:track>Checkmate</music:track>
+				<music:track>The Cut That Always Bleeds</music:track>
+				<music:track>Fight ot Flight</music:track>
+				<music:track>Affluenza</music:track>
+				<music:track>(Can We Be Friends?)</music:track>
+				<music:track>STRANGERS PT 2 (Interlude)</music:track>
+				<music:track>Heather</music:track>
+				<music:track>Little League</music:track>
+				<music:track>The Story</music:track>
+			</music:tracklist>
+			<music:description>Kid Krow is the debut studio music:album by American singer-songwriter Conan Gray. It was released on March 20, 2020, through Republic Records. The music:album is a "coming of age" record inspired by elements such as his rough childhood experiences of poverty, abuse, and discrimination.[2][3][4] The music:album was supported by the singles "Checkmate", "Comfort Crowd", "Maniac", "The Story", "Wish You Were Sober", and "Heather".</music:description>
+		</music:album>
+		
+		<music:album id="11">
+			<music:title>The music:album</music:title>
+			<music:cover>../images/songs/image43.png</music:cover>
+			<music:artist>Jonas Brothers</music:artist>
+			<music:price>AED 215</music:price>
+			<music:tracklist>
+				<music:track>Miracle</music:track>
+				<music:track>Montana Sky</music:track>
+				<music:track>Wings</music:track>
+				<music:track>Sail Away</music:track>
+				<music:track>Americana</music:track>
+				<music:track>Celebrate!</music:track>
+				<music:track>Waffle House</music:track>
+				<music:track>Vacation Eyes</music:track>
+				<music:track>Summer In The Hamptons</music:track>
+				<music:track>Summer Baby</music:track>
+				<music:track>Little Bird</music:track>
+				<music:track>Walls(with Jon Bellion)</music:track>
+			</music:tracklist>
+			<music:description>The music:album is the sixth studio music:album by American pop rock band Jonas Brothers. It was released through Republic Records on May 12, 2023. The music:album features a sole guest appearance from Jon Bellion. Production was handled by Bellion himself, the Monsters &amp; Strangerz, Pete Nappi, TenRoc, the Diner, Daniel Tashian, Ido Zmishlany, Johnny Simpson, and Colin Brittain.</music:description>
+		</music:album>
+		
+		<music:album id="12">
+			<music:title>Music Of The Spheres</music:title>
+			<music:cover>../images/songs/image19.png</music:cover>
+			<music:artist>Coldplay</music:artist>
+			<music:price>AED 340</music:price>
+			<music:tracklist>
+				<music:track>🪐</music:track>
+				<music:track>Higher Power</music:track>
+				<music:track>Humankind</music:track>
+				<music:track>✨</music:track>
+				<music:track>Let Somebody Go</music:track>
+				<music:track>❤️</music:track>
+				<music:track>People of The Pride</music:track>
+				<music:track>Biutyful</music:track>
+				<music:track>🌍</music:track>
+				<music:track>My Universe</music:track>
+				<music:track>♾️</music:track>
+				<music:track>Coloratura</music:track>
+			</music:tracklist>
+			<music:description>Music of the Spheres (submusic:titled Vol. I: From Earth with Love)[1] is the ninth studio music:album by British rock band Coldplay, released on 15 October 2021 by Parlophone in the United Kingdom and Atlantic in the United States. The music:album was produced by Max Martin, who is a new producer to the band's discography.[2][3] It features guest appearances from Selena Gomez, We Are King, Jacob Collier and BTS, as well as returning contributions from electronic producer Jon Hopkins.</music:description>
+		</music:album>
+		
+		<music:album id="13">
+			<music:title>So Close To What</music:title>
+			<music:cover>../images/songs/image5.png</music:cover>
+			<music:artist>Tate McRae</music:artist>
+			<music:price>AED 330</music:price>
+			<music:tracklist>
+				<music:track>Miss possessive</music:track>
+				<music:track>Revolving door</music:track>
+				<music:track>bloodonmyhands (feat.Flo Milli)</music:track>
+				<music:track>Dear god</music:track>
+				<music:track>Purple lace bra</music:track>
+				<music:track>Sports car</music:track>
+				<music:track>Signs</music:track>
+				<music:track>I know love (feat. The kid LAROI)</music:track>
+				<music:track>Like I do</music:track>
+				<music:track>It's ok I'm ok</music:track>
+				<music:track>No I'm not in love</music:track>
+				<music:track>Means I care</music:track>
+				<music:track>Greenlight</music:track>
+				<music:track>2 hands</music:track>
+				<music:track>Siren sounds (bonus)</music:track>
+				<music:track>Nostalgia</music:track>
+			</music:tracklist>
+			<music:description>So Close to What is the third studio music:album by Canadian singer Tate McRae, released on February 21, 2025, through RCA Records. She co-wrote it with several collaborators, including the producers Ryan Tedder, Blake Slatkin, Lostboy, Emile Haynie, Ilya, and Rob Bisel. The music:album was preceded by the singles "It's OK I'm OK", "2 Hands", and "Sports Car", while "Revolving Door" was released alongside it. Musically, So Close to What is a pop, dance-pop, and R&amp;B record.</music:description>
+		</music:album>
+		
+		<music:album id="14">
+			<music:title>Harry's House</music:title>
+			<music:cover>../images/songs/image57.png</music:cover>
+			<music:artist>Harry Styles</music:artist>
+			<music:price>AED 260</music:price>
+			<music:tracklist>
+				<music:track>Music For a Sushi Restaurant</music:track>
+				<music:track>Late Night Talking</music:track>
+				<music:track>Grapejuice</music:track>
+				<music:track>As It Was</music:track>
+				<music:track>Daylight</music:track>
+				<music:track>Little Freak</music:track>
+				<music:track>Matilda</music:track>
+				<music:track>Cinema</music:track>
+				<music:track>Daydreaming</music:track>
+				<music:track>Keep Driving</music:track>
+				<music:track>Satellite</music:track>
+				<music:track>Boyfriends</music:track>
+				<music:track>Love Of My Life</music:track>
+			</music:tracklist>
+			<music:description>Harry's House is the third studio music:album by English singer and songwriter Harry Styles, released on 20 May 2022 by Erskine and Columbia Records. The music:album was largely written and recorded during 2020 and 2021 and has been noted as Styles' most introspective work. Inspired by 1970s Japanese city pop, Harry's House is a synth-pop, new wave, pop rock and pop-funk music:album.</music:description>
+		</music:album>
+		
+	</music:genre>
+	
+	<music:genre name = "Hip Hop" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>A cultural movement originating in the Bronx, Hip Hop blends rhythmic beats, poetic lyrics, and storytelling. Its roots in social and political expression continue to influence modern music and fashion.</music:details>
+
+		<music:album id="15">
+			<music:title>GNX</music:title>
+			<music:cover>../images/songs/image70.png</music:cover>
+			<music:artist>Kendrick Lamar</music:artist>
+			<music:price>AED 280</music:price>
+			<music:tracklist>
+				<music:track>wacced out murals</music:track>
+				<music:track>squabble up</music:track>
+				<music:track>luther (with sza)</music:track>
+				<music:track>man at the garden</music:track>
+				<music:track>hey now (feat.dody6)</music:track>
+				<music:track>reincarnated</music:track>
+				<music:track>tv off(feat.lefty gunplay)</music:track>
+				<music:track>dodger blue (feat.wallie the sensei, siete7x, roddy ricch)</music:track>
+				<music:track>peekaboo(feat.azchike)</music:track>
+				<music:track>heart pt.6</music:track>
+				<music:track>gnx(feat. hotta j3, youngthreat, peysoh)</music:track>
+				<music:track>gloria(with sza)</music:track>
+			</music:tracklist>
+			<music:description>GNX is the sixth studio music:album by American rapper Kendrick Lamar. It was surprise released on November 22, 2024, through PGLang and Interscope Records. The music:album features many guest appearances from music:artists SZA, Dody6, Lefty Gunplay, Wallie the Sensei, Siete7x, Roddy Ricch, AzChike, Hitta J3, YoungThreat, and Peysoh. Production was primarily handled by Sounwave and Jack Antonoff, alongside Mustard, Sean Momberger, and Kamasi Washington, among others. music:titled after the Buick Regal model and following his feud with Canadian musician Drake, GNX is Lamar's first music:album to be released after his departure from longtime labels Top Dawg Entertainment and Aftermath Entertainment.</music:description>
+		</music:album>
+		
+		<music:album id="16">
+			<music:title>A Great Chaos</music:title>
+			<music:cover>../images/songs/image21.png</music:cover>
+			<music:artist>Ken Carson</music:artist>
+			<music:price>AED 375</music:price>
+			<music:tracklist>
+				<music:track>Green Room</music:track>
+				<music:track>Jennifer's Body</music:track>
+				<music:track>Fighting My Demons</music:track>
+				<music:track>Singapore(feat.Destroy Lonely)</music:track>
+				<music:track>Lose It</music:track>
+				<music:track>Hardcore</music:track>
+				<music:track>Me N My Kup</music:track>
+				<music:track>It's Over</music:track>
+				<music:track>Succumbus</music:track>
+				<music:track>Paranoid(feat. Destroy Lonely)</music:track>
+				<music:track>Pots</music:track>
+				<music:track>Like This(feat. Lil Uzi Vert, Destroy Lonely)</music:track>
+				<music:track>Overtime</music:track>
+				<music:track>Vampire Hour</music:track>
+				<music:track>Nightcore</music:track>
+				<music:track>Nightcore 2</music:track>
+				<music:track>Rockstar Lifestyle</music:track>
+				<music:track>i need u</music:track>
+			</music:tracklist>
+			<music:description>A Great Chaos is the third studio music:album by the American rapper Ken Carson, released on October 13, 2023, through Opium and Interscope Records. The music:album's production was handled by various producers, including Carson himself, F1lthy, Lil 88, Star Boy, Outtatown and TM88, and features guest appearances from Destroy Lonely and Lil Uzi Vert. A rage music:album, A Great Chaos is characterized by its maximalist production with glitchy, digitized instrumentation, hedonistic attitude coupled with moments of vulnerability and angst, and horror references.</music:description>
+		</music:album>
+		
+		<music:album id="17">
+			<music:title>Certified</music:title>
+			<music:cover>../images/songs/image46.png</music:cover>
+			<music:artist>NLE Choppa</music:artist>
+			<music:price>AED 320</music:price>
+			<music:tracklist>
+				<music:track>DO IT AGAIN(feat.2Rare)</music:track>
+				<music:track>SL*T ME OUT</music:track>
+				<music:track>IT'S GETTING HOT</music:track>
+				<music:track>Picture Me Grapin'</music:track>
+				<music:track>Narrow Road(feat.Lil Baby)</music:track>
+				<music:track>Walk Em Down(feat.Roddy Ricch)</music:track>
+				<music:track>Camelot</music:track>
+				<music:track>Shotta Flow 3</music:track>
+				<music:track>Shotta Flow 5</music:track>
+				<music:track>Shotta Flow</music:track>
+				<music:track>Shotta Flow (feat.Blueface)</music:track>
+				<music:track>Final Warning</music:track>
+				<music:track>Jumpin(feat.Polo G)</music:track>
+				<music:track>Shotta Flow 2</music:track>
+				<music:track>Famous H##s</music:track>
+				<music:track>Capo</music:track>
+				<music:track>Free Youngboy</music:track>
+			</music:tracklist>
+			<music:description>This music:album compiles NLE Choppa’s 17 songs that earned gold, platinum, or multi-platinum awards from the RIAA, reflecting milestones of sales and equivalent streams.</music:description>
+		</music:album>
+		
+		<music:album id="18">
+			<music:title>For All The Dogs</music:title>
+			<music:cover>../images/songs/image72.png</music:cover>
+			<music:artist>Drake</music:artist>
+			<music:price>AED 295</music:price>
+			<music:tracklist>
+				<music:track>Virginia Beach</music:track>
+				<music:track>Amen(feat.Teezo Touchdown)</music:track>
+				<music:track>Calling For You(feat.21 Savage)</music:track>
+				<music:track>Fear Of Heights</music:track>
+				<music:track>Daylight</music:track>
+				<music:track>First Person Shooter(feat. J.Cole)</music:track>
+				<music:track>IDGAF (feat.Yeat)</music:track>
+				<music:track>7969 Santa</music:track>
+				<music:track>Slime You Out (feat.SZA)</music:track>
+				<music:track>Bahamas Promises</music:track>
+				<music:track>Tried Our Best</music:track>
+				<music:track>Screw The World - Interlude</music:track>
+				<music:track>Drew A Picasso</music:track>
+				<music:track>Members Only (feat.PARTYNEXTDOOR)</music:track>
+				<music:track>What Would Pluto Do</music:track>
+				<music:track>All The Parties(feat.Chief Keef)</music:track>
+				<music:track>8am in Charlotte</music:track>
+				<music:track>BBL Love - Interlude</music:track>
+				<music:track>Gently(feat.Bad Bunny)</music:track>
+				<music:track>Rich Baby Daddy (feat. Sexyy Red &amp; SZA)</music:track>
+				<music:track>Another Late Night (feat. Lil Yachty)</music:track>
+				<music:track>Away From Home</music:track>
+				<music:track>Polar Opposites</music:track>
+			</music:tracklist>
+			<music:description>For All the Dogs is the eighth studio music:album by Canadian rapper Drake. It was released by OVO Sound and Republic Records on October 6, 2023. The music:album features guest appearances from Teezo Touchdown, 21 Savage, J. Cole, Yeat, SZA, PartyNextDoor, Chief Keef, Bad Bunny, Sexyy Red, and Lil Yachty. Production was handled by Drake, Teezo Touchdown, and Lil Yachty themselves, along with 40, Sango, Oz, Bnyx, Southside, Boi-1da, Vinylz, Tay Keith, FnZ, Jahaan Sweet, the late DJ Screw, Stwo, Gordo, Justin Raisen, and the Alchemist, among others.</music:description>
+		</music:album>
+		
+		<music:album id="19">
+			<music:title>UTOPIA</music:title>
+			<music:cover>../images/songs/image9.png</music:cover>
+			<music:artist>Travis Scott</music:artist>
+			<music:price>AED 300</music:price>
+			<music:tracklist>
+				<music:track>HYAENA</music:track>
+				<music:track>THANK GOD</music:track>
+				<music:track>MODERN JAM (feat.Teezo Touchdown)</music:track>
+				<music:track>MY EYES</music:track>
+				<music:track>GOD'S COUNTRY</music:track>
+				<music:track>SIRENS</music:track>
+				<music:track>MELTDOWN(feat.Drake)</music:track>
+				<music:track>FE!N(feat.Playboi Carti)</music:track>
+				<music:track>DELRESTO(ECHOES)(feat.BEYONCE)</music:track>
+				<music:track>I KNOW?</music:track>
+				<music:track>TOPIA TWINS(feat.Rob49 &amp; 21 Savage)</music:track>
+				<music:track>CIRCUS MAXIMUS(feat.The Weeknd &amp; Swae Lee)</music:track>
+				<music:track>PARASAIL(feat. Yung Lean, Dave Chapelle)</music:track>
+				<music:track>SKITZO(feat.Young Thug)</music:track>
+				<music:track>LOST FOREVER(feat.Westside Gunn)</music:track>
+				<music:track>LOOOVE (feat. Kid Cudi)</music:track>
+				<music:track>K-POP(feat.Bad Bunny)</music:track>
+				<music:track>TELEKINESIS(feat. SZA &amp; Futute)</music:track>
+				<music:track>TIL FURTHER NOTICE(feat.James Blake &amp; 21 Savage)</music:track>
+			</music:tracklist>
+			<music:description>Utopia is the fourth studio music:album by American rapper Travis Scott. It was released through Cactus Jack and Epic Records on July 28, 2023.The music:album serves as the follow-up to Scott's third studio music:album, Astroworld (2018), as well as JackBoys (2019), his compilation music:album that was released in collaboration with Cactus Jack. It is a concept record that was accompanied by a film music:titled Circus Maximus, which was released the day before the music:album.</music:description>
+		</music:album>
+		
+		<music:album id="20">
+			<music:title>One of Wun</music:title>
+			<music:cover>../images/songs/image90.png</music:cover>
+			<music:artist>Gunna</music:artist>
+			<music:price>AED 350</music:price>
+			<music:tracklist>
+				<music:track>collage</music:track>
+				<music:track>one of wun</music:track>
+				<music:track>neck on a yacht</music:track>
+				<music:track>whatsapp (wassam)</music:track>
+				<music:track>hakuna matata</music:track>
+				<music:track>prada dem(feat.OFFSET)</music:track>
+				<music:track>treesh</music:track>
+				<music:track>on one tonight</music:track>
+				<music:track>back in the a</music:track>
+				<music:track>trio</music:track>
+				<music:track>still prevail</music:track>
+				<music:track>blackjack</music:track>
+				<music:track>$$$(feat.Normani)</music:track>
+				<music:track>clear my rain(feat.Leon Bridges)</music:track>
+				<music:track>conscience</music:track>
+				<music:track>the time</music:track>
+				<music:track>let it breathe(feat.Roddy Ricch)</music:track>
+				<music:track>life's changing</music:track>
+				<music:track>today i did good</music:track>
+				<music:track>time reveals, be careful what you wish for</music:track>
+			</music:tracklist>
+			<music:description>One of Wun is the fifth studio music:album by American rapper Gunna. It was released under license to Gunna Music, LLC, YSL Records, and 300 Entertainment on May 10, 2024.[1] The music:album features guest appearances from Offset, Normani, Leon Bridges, and Roddy Ricch. Production was handled by a variety of record producers, including Turbo, Teddy Walton, and Larrance Dopson, among others. It serves as the follow-up to Gunna's previous music:album, A Gift &amp; a Curse (2023), in which he embarked on the Bittersweet Tour to support both music:albums.</music:description>
+		</music:album>
+		
+		<music:album id="21">
+			<music:title>MUSIC</music:title>
+			<music:cover>../images/songs/image30.png</music:cover>
+			<music:artist>Playboi Carti</music:artist>
+			<music:price>AED 380</music:price>
+			<music:tracklist>
+				<music:track>POP OUT</music:track>
+				<music:track>CRUSH(with Travis Scott)</music:track>
+				<music:track>K POP</music:track>
+				<music:track>EVIL JORDAN</music:track>
+				<music:track>MOJO JOJO</music:track>
+				<music:track>PHILLY(with TRAVIS Scott)</music:track>
+				<music:track>RADAR</music:track>
+				<music:track>RATHER LIE (with The Weeknd)</music:track>
+				<music:track>FINE SH##</music:track>
+				<music:track>BACKD00R (feat. Kendrick Lamar)</music:track>
+				<music:track>TOXIC (with Skepta)</music:track>
+				<music:track>MUNYUN</music:track>
+				<music:track>CRANK</music:track>
+				<music:track>CHARGE DEM H*ES A FEE(with Future &amp; Travis Scott)</music:track>
+				<music:track>GOOD CREDIT</music:track>
+				<music:track>I SEEEEEE YOU BABY BOI</music:track>
+				<music:track>WAKE UP F1LTHY(with Travis Scott)</music:track>
+				<music:track>JUMPIN (with Lil Uzi Vert)</music:track>
+				<music:track>TRIM (with Future)</music:track>
+				<music:track>COC*INE NOSE</music:track>
+				<music:track>WE NEED ALL DA VIBES (with Young Thug &amp; Ty Dolla $ign)</music:track>
+				<music:track>OLYMPIAN</music:track>
+				<music:track>OPM BABI</music:track>
+				<music:track>TWIN TRIM(with Lil Uzi Vert)</music:track>
+				<music:track>LIKE WEEZY</music:track>
+				<music:track>DIS 1 GOT IT</music:track>
+				<music:track>WALK</music:track>
+				<music:track>HBA</music:track>
+				<music:track>OVERLY</music:track>
+				<music:track>SOUTH ATLANTA BABY</music:track>
+			</music:tracklist>
+			<music:description>Music (also known as I Am Music, both stylized in all caps) is the third studio music:album by American rapper Playboi Carti. It was released on March 14, 2025, through AWGE and Interscope Records. The music:album consists of 30 music:tracks and features guest appearances from Travis Scott, the Weeknd, Kendrick Lamar, Jhené Aiko, Skepta, Future, Lil Uzi Vert, Ty Dolla Sign, and Young Thug.</music:description>
+		</music:album>
+		
+		<music:album id="22">
+			<music:title>Sremm 4 Life</music:title>
+			<music:cover>../images/songs/image74.png</music:cover>
+			<music:artist>Rae Sremmurd</music:artist>
+			<music:price>AED 225</music:price>
+			<music:tracklist>
+				<music:track>Origami(Hotties)</music:track>
+				<music:track>Royal Flush(feat. Young Thug)</music:track>
+				<music:track>Mississippi Slide</music:track>
+				<music:track>Not So Bad (Leans Gone Cold)</music:track>
+				<music:track>Tanisha (Pump That)</music:track>
+				<music:track>Bend Ya Knees</music:track>
+				<music:track>Activate(feat.Future)</music:track>
+				<music:track>Flaunt It/Cheap</music:track>
+				<music:track>Sexy</music:track>
+				<music:track>YMCA</music:track>
+				<music:track>Something I'm Not</music:track>
+				<music:track>Torpedo</music:track>
+				<music:track>Diamonds Dancing</music:track>
+				<music:track>ADHD Anthem(2 Many Emotion)</music:track>
+			</music:tracklist>
+			<music:description>Sremm 4 Life is the fourth studio music:album by American hip hop duo Rae Sremmurd. It was released through Ear Drummer and Interscope Records on April 7, 2023. The music:album was supported by two singles, "Torpedo" and "Tanisha (Pump That)". It serves as the follow-up to the duo's previous music:album, SR3MM(2018), and is their first project after coming out of a five-year-long hiatus.</music:description>
+		</music:album>
+		
+		<music:album id="23">
+			<music:title>Rocket Power</music:title>
+			<music:cover>../images/songs/image40.png</music:cover>
+			<music:artist>Quavo</music:artist>
+			<music:price>AED 340</music:price>
+			<music:tracklist>
+				<music:track>Fueled Up</music:track>
+				<music:track>Patty Cake(feat.Takeoff)</music:track>
+				<music:track>Mama Told Me</music:track>
+				<music:track>Who Wit Me</music:track>
+				<music:track>Narkedo Speaks</music:track>
+				<music:track>Hold Me</music:track>
+				<music:track>Where Can I Start</music:track>
+				<music:track>Wall To Wall</music:track>
+				<music:track>Turn Yo Clic Up (feat.Future)</music:track>
+				<music:track>Back Where It Begins(feat.Takeoff and Future)</music:track>
+				<music:track>11.11</music:track>
+				<music:track>Galaxy</music:track>
+				<music:track>Disciples</music:track>
+				<music:track>Focused(feat.Young Thug)</music:track>
+				<music:track>Stain(feat.Hunxho and BabyDrill)</music:track>
+				<music:track>Not Done Yet</music:track>
+				<music:track>Rocket Power</music:track>
+				<music:track>Greatness</music:track>
+			</music:tracklist>
+			<music:description>Rocket Power is the second studio music:album by American rapper Quavo. It was released on August 18, 2023, by Quality Control Music and Motown. The music:album features guest appearances from the late Takeoff, Future, Young Thug, Hunxho, and BabyDrill.</music:description>
+		</music:album>
+		
+		<music:album id="24">
+			<music:title>HARDSTONE PSYCHO</music:title>
+			<music:cover>../images/songs/image1.png</music:cover>
+			<music:artist>Don Toliver</music:artist>
+			<music:price>AED 300</music:price>
+			<music:tracklist>
+				<music:track>KRYPTONITE</music:track>
+				<music:track>TORE UP</music:track>
+				<music:track>BROTHER STONE(FEAT. KODAK BLACK)</music:track>
+				<music:track>ATTITUDE(FEAT.CARLIE WILSON &amp; CASH COBAIN)</music:track>
+				<music:track>BANDIT</music:track>
+				<music:track>GLOCK</music:track>
+				<music:track>ICE AGE (FEAT. TRAVIS SCOTT)</music:track>
+				<music:track>4X4</music:track>
+				<music:track>PURPLE RAIN(FEAT.FUTURE &amp; METRO BOOMIN)</music:track>
+				<music:track>NEW DROP</music:track>
+				<music:track>BACKSTREETS(FEAT.TEEZO TOUCHDOWN)</music:track>
+				<music:track>DEEP IN THE WATER</music:track>
+				<music:track>INSIDE(FEEAT. TRAVIS SCOTT)</music:track>
+				<music:track>5 TO 10</music:track>
+				<music:track>LAST LAUGH</music:track>
+				<music:track>HARDSTONE NATIONAL ANTHEM</music:track>
+			</music:tracklist>
+			<music:description>Hardstone Psycho is the fourth studio music:album by American rapper and singer Don Toliver. It was released through Cactus Jack and Atlantic Records on June 14, 2024. The music:album features guest appearances from Kodak Black, Charlie Wilson, Cash Cobain, Travis Scott, Future, Metro Boomin, and Teezo Touchdown. It serves as the follow-up to Toliver's previous music:album, Love Sick (2023)</music:description>
+		</music:album>
+		
+		<music:album id="25">
+			<music:title>MANSION MUSIK</music:title>
+			<music:cover>../images/songs/image48.png</music:cover>
+			<music:artist>Trippie Redd</music:artist>
+			<music:price>AED 260</music:price>
+			<music:tracklist>
+				<music:track>MANSION MUSIK</music:track>
+				<music:track>ATLANTIS</music:track>
+				<music:track>PSYCHO</music:track>
+				<music:track>FULLY LOADED</music:track>
+				<music:track>KNIGHT CRAWLER</music:track>
+				<music:track>VAN HELSING</music:track>
+				<music:track>DARK BROTHERHOOD</music:track>
+				<music:track>FREE RIO</music:track>
+				<music:track>KRZY TRAIN</music:track>
+				<music:track>MUSCLES</music:track>
+				<music:track>GOODFELLAS</music:track>
+				<music:track>KILLIONAIRE</music:track>
+				<music:track>HIGH HOPES</music:track>
+				<music:track>DIE DIE</music:track>
+				<music:track>WHO ELSE!</music:track>
+				<music:track>BIGGEST BIRD</music:track>
+				<music:track>HIDEOUT</music:track>
+				<music:track>WITCHCRAFT</music:track>
+				<music:track>TOILET WATER</music:track>
+				<music:track>PURE</music:track>
+				<music:track>ROCK OUT</music:track>
+				<music:track>ARMAGEDDON</music:track>
+				<music:track>NUN</music:track>
+				<music:track>SWAG LIKE OHIO PT.2</music:track>
+				<music:track>COLORS</music:track>
+			</music:tracklist>
+			<music:description>Mansion Musik is the fifth studio music:album by American rapper and singer Trippie Redd. It was released through 10K Projects and 1400 Entertainment on January 20, 2023.It was executive produced by Chief Keef and serves as the follow-up to Redd's previous music:album, Trip at Knight (2021). "Krzy Train", a collaboration alongside Travis Scott, was pushed as the lead and only single from the music:album on the same day as its release.</music:description>
+		</music:album>
+		
+
+		<music:album id="26">
+			<music:title>AfterLyfe</music:title>
+			<music:cover>../images/songs/image52.png</music:cover>
+			<music:artist>Yeat</music:artist>
+			<music:price>AED 310</music:price>
+			<music:tracklist>
+				<music:track>No more talk</music:track>
+				<music:track>Shmunk(feat.YoungBoy Never Broke Again</music:track>
+				<music:track>Bettr Off</music:track>
+				<music:track>Rav3 p4rty(feat.Kranky Kranky)</music:track>
+				<music:track>Nun id change</music:track>
+				<music:track>Woa...!</music:track>
+				<music:track>Now(feat.Luh geeky)</music:track>
+				<music:track>Slamm</music:track>
+				<music:track>7 nightz</music:track>
+				<music:track>Mean feen</music:track>
+				<music:track>How it go</music:track>
+				<music:track>Sum 2 do</music:track>
+				<music:track>Back up</music:track>
+				<music:track>Split</music:track>
+				<music:track>Bad bend/DeMON</music:track>
+				<music:track>Heavyweight</music:track>
+				<music:track>Watch</music:track>
+				<music:track>Shhhh</music:track>
+				<music:track>Back home</music:track>
+				<music:track>Type money</music:track>
+				<music:track>Demon tied</music:track>
+				<music:track>Myself</music:track>
+			</music:tracklist>
+			<music:description>Afterlyfe is the third studio music:album by American rapper Yeat. It was released on February 24, 2023, by Geffen Records, Field Trip Recordings, and Twizzy Rich.The follow-up to his EP Lyfë (2022), it contains a sole guest appearance from YoungBoy Never Broke Again as well as Yeat's alter egos Kranky Kranky &amp; Luh Geeky.</music:description>
+		</music:album>
+		
+		<music:album id="27">
+			<music:title>HNDRXX</music:title>
+			<music:cover>../images/songs/image31.png</music:cover>
+			<music:artist>Future</music:artist>
+			<music:price>AED 295</music:price>
+			<music:tracklist>
+				<music:track>My Collection</music:track>
+				<music:track>Comin Out Strong(feat. The Weeknd)</music:track>
+				<music:track>Lookin Exotic</music:track>
+				<music:track>Damage</music:track>
+				<music:track>Use Me</music:track>
+				<music:track>Incredible</music:track>
+				<music:track>Testify</music:track>
+				<music:track>Fresh Air</music:track>
+				<music:track>Neva Missa Lost</music:track>
+				<music:track>Keep Quiet</music:track>
+				<music:track>Hallucinating</music:track>
+				<music:track>I Thank U</music:track>
+				<music:track>New Illuminati</music:track>
+				<music:track>Turn On Me</music:track>
+				<music:track>Selfish(feat.Rihanna)</music:track>
+				<music:track>Solo</music:track>
+				<music:track>Sorry</music:track>
+			</music:tracklist>
+			<music:description>Hndrxx is the sixth studio music:album by American rapper Future. It was released on February 24, 2017, through A1 Recordings, Freebandz, and Epic Records. It followed the release of Future's eponymously-music:titled fifth music:album by one week, and features guest appearances from Rihanna, The Weeknd, Chris Brown, and Nicki Minaj.</music:description>
+		</music:album>
+		
+		<music:album id="28">
+			<music:title>VULTURES 2</music:title>
+			<music:cover>../images/songs/image12.png</music:cover>
+			<music:artist>¥$</music:artist>
+			<music:price>AED 220</music:price>
+			<music:tracklist>
+				<music:track>SLIDE</music:track>
+				<music:track>TIME MOVING SLOW</music:track>
+				<music:track>FIELD TRIP</music:track>
+				<music:track>FRIED</music:track>
+				<music:track>ISABELLA</music:track>
+				<music:track>PROMOTION</music:track>
+				<music:track>530</music:track>
+				<music:track>DEAD</music:track>
+				<music:track>FOREVER ROLLING</music:track>
+				<music:track>BOMB</music:track>
+				<music:track>RIVER</music:track>
+				<music:track>FOREVER</music:track>
+				<music:track>HUSBAND</music:track>
+				<music:track>LIFESTYLE</music:track>
+				<music:track>SKY CITY</music:track>
+				<music:track>MY SOUL</music:track>
+			</music:tracklist>
+			<music:description>Vultures 2 is the second studio music:album by the American hip-hop supergroup ¥$, composed of rapper Kanye West and singer Ty Dolla $ign. It was surprise released under the former's YZY brand on August 3, 2024. </music:description>
+		</music:album>
+		
+		<music:album id="29">
+			<music:title>TESTING</music:title>
+			<music:cover>../images/songs/image23.png</music:cover>
+			<music:artist>A$AP Rocky</music:artist>
+			<music:price>AED 200</music:price>
+			<music:tracklist>
+				<music:track>Distorted Records</music:track>
+				<music:track>A$AP Forever REMIX(feat.Moby,T.I.,Kid Cudi)</music:track>
+				<music:track>Tony Tone</music:track>
+				<music:track>Fukk Sleep(feat.FKA twigs)</music:track>
+				<music:track>Praise The Lord(Da Shine)(feat.Skepta)</music:track>
+				<music:track>CALLDROPS(feat.Kodak Black)</music:track>
+				<music:track>Buck Shots</music:track>
+				<music:track>Gunz N Butter(feat. Juicy J)</music:track>
+				<music:track>Brotha Man(feat. French Montana)</music:track>
+				<music:track>OG Beeper</music:track>
+				<music:track>Kids Turned Out Fine</music:track>
+				<music:track>Hun43rd</music:track>
+				<music:track>Changes</music:track>
+				<music:track>Black Tux, White Collar</music:track>
+				<music:track>Purity(feat. Frank Ocean)</music:track>
+			</music:tracklist>
+			<music:description>Testing is the third studio music:album by American rapper ASAP Rocky. It was released on May 25, 2018, by ASAP Worldwide, Polo Grounds Music and RCA Records. The music:album includes guest appearances from Frank Ocean, Kid Cudi, Skepta, French Montana, Kodak Black, Dev Hynes and FKA Twigs, among others, and was produced primarily by Hector Delgado and ASAP Rocky himself, alongside a variety of high-profile record producers.</music:description>
+		</music:album>
+		
+		
+	</music:genre>
+	
+	<music:genre name = "R &amp; B" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>Rhythm and Blues blends soulful vocals with smooth melodies and rich, emotive lyrics. Emerging from African American traditions, R&amp;B has evolved to include contemporary styles, maintaining a focus on heartfelt storytelling and vocal mastery.</music:details>
+		<music:album id="30">
+			<music:title>PARTYNEXTDOOR</music:title>
+			<music:cover>../images/songs/image28.png</music:cover>
+			<music:artist>PARTYNEXTDOOR</music:artist>
+			<music:price>AED 260</music:price>
+			<music:tracklist>
+				<music:track>Welcome to the Party</music:track>
+				<music:track>Wild B*tches</music:track>
+				<music:track>Relax with Me</music:track>
+				<music:track>Right Now</music:track>
+				<music:track>Make a Mil</music:track>
+				<music:track>Break from Toronto</music:track>
+				<music:track>TBH</music:track>
+				<music:track>Wus Good / Curious</music:track>
+				<music:track>Over Here (feat.Drake)</music:track>
+				<music:track>Ballin'</music:track>
+			</music:tracklist>
+			<music:description>PartyNextDoor is the self-music:titled debut studio music:album by Canadian recording music:artist PartyNextDoor. It was released on July 1, 2013, by OVO Sound and Warner Records.</music:description>
+		</music:album>
+		
+		<music:album id="31">
+		    <music:title>SOS</music:title>
+			<music:cover>../images/songs/image41.png</music:cover>
+		    <music:artist>SZA</music:artist>
+		    <music:price>AED 320</music:price>
+		    <music:tracklist>
+		    	<music:track>SOS</music:track>
+		        <music:track>Kill Bill</music:track>
+		        <music:track>Seek &amp; Destroy</music:track>
+		        <music:track>Low</music:track>
+		        <music:track>Love Language</music:track>
+		        <music:track>Blind</music:track>
+		        <music:track>Used (feat. Don Toliver)</music:track>
+		        <music:track>Snooze</music:track>
+		        <music:track>Notice Me</music:track>
+		        <music:track>Gone Girl</music:track>
+		        <music:track>Smoking on my Ex Pack</music:track>
+		        <music:track>Ghost in the Machine (feat. Phoebe Bridgers)</music:track>
+		        <music:track>Nobody Gets Me</music:track>
+		        <music:track>Conceited</music:track>
+		        <music:track>Special</music:track>
+		        <music:track>Too Late</music:track>
+		        <music:track>Far</music:track>
+		        <music:track>Shirt</music:track>
+		        <music:track>Open Arms (feat. Travis Scott)</music:track>
+		        <music:track>I Hate U</music:track>
+		        <music:track>Good Days</music:track>
+		        <music:track>Forgiveless(feat. Ol' Dirty Bastard)</music:track>
+		    </music:tracklist>
+			<music:description>SOS is the second studio music:album by American singer-songwriter SZA. It was released on December 9, 2022, by Top Dawg Entertainment (TDE) and RCA Records. The music:album features guest appearances from Don Toliver, Phoebe Bridgers, Travis Scott, and the late Ol' Dirty Bastard. SZA worked with a variety of record producers and songwriters such as Babyface, Jeff Bhasker, Rob Bisel, Benny Blanco, Darkchild, DJ Dahi, Ant Clemons, and Lizzo. It serves as the follow-up to SZA's debut music:album Ctrl (2017).</music:description>
+		</music:album>
+		
+		<music:album id="32">
+		    <music:title>I Told You</music:title>
+			<music:cover>../images/songs/image37.png</music:cover>
+		    <music:artist>Tory Lanez</music:artist>
+		    <music:price>AED 350</music:price>
+		    <music:tracklist>
+		    	<music:track>I Told You/ Another One - Skit 1</music:track>
+		    	<music:track>I Told You/ Another One</music:track>
+		    	<music:track>I Told You/ Another One - Skit 2</music:track>
+		        <music:track>Guns and Roses</music:track>
+		        <music:track>Guns and Roses - Skit</music:track>
+		        <music:track>Flex</music:track>
+		        <music:track>Flex - Skit</music:track>
+		        <music:track>To D.R.E.A.M.</music:track>
+		        <music:track>To D.R.E.A.M. - Skit</music:track>
+		        <music:track>4AM Flex</music:track>
+		        <music:track>4AM Flex - Skit</music:track>
+		        <music:track>Friends with Benefits</music:track>
+		        <music:track>Cold Hard Love</music:track>
+		        <music:track>Cold Hard Love - Skit</music:track>
+		        <music:track>High</music:track>
+				<music:track>High - Skit</music:track>
+				<music:track>Dirty Money</music:track>
+				<music:track>Dirty Money - Skit</music:track>
+				<music:track>Question Is</music:track>
+				<music:track>Question Is - Skit</music:track>
+		        <music:track>Loner’s Blvd</music:track>
+		        <music:track>Loner’s Blvd - Skit</music:track>
+		        <music:track>All The Girls</music:track>
+		        <music:track>All The Girls - Skit</music:track>
+		        <music:track>Say It</music:track>
+		        <music:track>Say It - Skit</music:track>
+		        <music:track>LUV</music:track>
+		        <music:track>LUV - Skit</music:track>
+		    </music:tracklist>
+			<music:description>I Told You is the debut studio music:album by Canadian rapper Tory Lanez. It was released on August 19, 2016, through Mad Love Records and Interscope Records. Recording sessions took place from 2015 to 2016. The production on the music:album was contributed by Lanez, alongside several other record producers such as Benny Blanco, Cashmere Cat, Frank Dukes, DJ Dahi, Pop Wansel and Noah Breakfast, among others.</music:description>
+		</music:album>
+
+		<music:album id="33">
+		    <music:title>Trapsoul</music:title>
+			<music:cover>../images/songs/image77.png</music:cover>
+		    <music:artist>Bryson Tiller</music:artist>
+		    <music:price>AED 380</music:price>
+		    <music:tracklist>
+		    	<music:track>Intro (Difference)</music:track>
+		    	<music:track>Let Em' Know</music:track>
+		    	<music:track>Exchange</music:track>
+		    	<music:track>For However Long</music:track>
+		        <music:track>Don't</music:track>
+		        <music:track>Open Interlude</music:track>
+		        <music:track>Ten Nine Fourteen</music:track>
+		        <tarck>The Sequence</tarck>
+		        <music:track>Rambo</music:track>
+		        <music:track>502 Come Up</music:track>
+		        <music:track>Sorry Not Sorry</music:track>
+		        <music:track>Been That Way</music:track>
+				<music:track>Overtime</music:track>
+		        <music:track>Right My Wrongs</music:track>
+		    </music:tracklist>
+			<music:description>Trapsoul (stylized as T R A P S O U L) is the debut studio music:album by American singer-songwriter Bryson Tiller. It was released on September 25, 2015[1] on Apple Music with a general release date of October 2, 2015 by RCA Records.The music:album was supported by three singles: "Don't", "Exchange" and "Sorry Not Sorry". The music:album garnered Tiller his breakthrough into mainstream R&amp;B, and was certified 3× Platinum by the RIAA. Trapsoul is also known for being highly influential on the contemporary sound of R&amp;B.[2]</music:description>
+		</music:album>
+		
+		<music:album id="34">
+		    <music:title>11:11</music:title>
+			<music:cover>../images/songs/image60.png</music:cover>
+		    <music:artist>Chris Brown</music:artist>
+		    <music:price>AED 270</music:price>
+		    <music:tracklist>
+		        <music:track>Angel Numbers /Ten Toes</music:track>
+		        <music:track>Sensational (feat. Davido &amp; Lojay)</music:track>
+		        <music:track>Nightmares</music:track>
+		        <music:track>Try Again</music:track>
+		        <music:track>Make Me</music:track>
+		        <music:track>Blue Moon</music:track>
+		        <music:track>Hate Me Tomorrow</music:track>
+		        <music:track>Run Away</music:track>
+		        <music:track>Vibe Check</music:track>
+		        <music:track>Lucky</music:track>
+		        <music:track>Still Here</music:track>
+		    </music:tracklist>
+			<music:description>11:11 is the eleventh studio music:album by American singer and songwriter Chris Brown.[8] It was released digitally on November 10, 2023, by RCA Records and CBE.[1][9] The expanded edition music:titled 11:11 (Deluxe) was released on April 11, 2024. It serves as the follow-up to his tenth studio music:album Breezy (2022).</music:description>
+		</music:album>
+		
+		<music:album id="35">
+		    <music:title>Twelve Carat Toothache</music:title>
+			<music:cover>../images/songs/image69.png</music:cover>
+		    <music:artist>Post Malone</music:artist>
+		    <music:price>AED 290</music:price>
+		    <music:tracklist>
+		        <music:track>Reputation</music:track>
+		        <music:track>Cooped Up</music:track>
+		        <music:track>Lemon Tree</music:track>
+		        <music:track>Wrapped Around Your Finger</music:track>
+		        <music:track>I Like You (A Happier Song)</music:track>
+		        <music:track>Wasting Angels</music:track>
+		        <music:track>One Right Now</music:track>
+		        <music:track>Insane</music:track>
+		        <music:track>Love/Hate Letter to Alcohol</music:track>
+		        <music:track>Euthanasia</music:track>
+		    </music:tracklist>
+			<music:description>Twelve Carat Toothache is the fourth studio music:album by American rapper Post Malone. It was released on June 3, 2022, by Mercury and Republic Records. The music:album contains 14 music:tracks and includes guest appearances from Roddy Ricch, Doja Cat, Gunna, Fleet Foxes, the Kid Laroi, and the Weeknd. The deluxe edition was later released on June 7, including two new music:tracks, "Waiting For Never" and "Hateful".</music:description>
+		</music:album>
+		
+		<music:album id="36">
+		    <music:title>Hurry Up Tomorrow</music:title>
+			<music:cover>../images/songs/image66.png</music:cover>
+		    <music:artist>The Weeknd</music:artist>
+		    <music:price>AED 375</music:price>
+		    <music:tracklist>
+		        <music:track>Dawn</music:track>
+		        <music:track>Shadowed Love</music:track>
+		        <music:track>Fallen Star</music:track>
+		        <music:track>Night Drive</music:track>
+		        <music:track>City Lights</music:track>
+		        <music:track>Echoes of You</music:track>
+		        <music:track>Before the Storm</music:track>
+		        <music:track>Runaway</music:track>
+		        <music:track>Reckless Heart</music:track>
+		        <music:track>Final Goodbye</music:track>
+		    </music:tracklist>
+			<music:description>Hurry Up Tomorrow is the sixth studio music:album by Canadian singer-songwriter the Weeknd. It was released through XO and Republic Records on January 31, 2025. The standard music:album contains guest appearances from Justice, Anitta, Travis Scott, Florence and the Machine, Future, Playboi Carti, Giorgio Moroder, and Lana Del Rey, with a bonus edition containing an additional appearance from Swedish House Mafia.</music:description>
+		</music:album>
+		
+		<music:album id="37">
+		    <music:title>Sincere</music:title>
+			<music:cover>../images/songs/image73.png</music:cover>
+		    <music:artist>Khalid</music:artist>
+		    <music:price>AED 340</music:price>
+		    <music:tracklist>
+		        <music:track>Intro</music:track>
+		        <music:track>Honest</music:track>
+		        <music:track>Cloud 9</music:track>
+		        <music:track>Midnight Thoughts</music:track>
+		        <music:track>Lost in You</music:track>
+		        <music:track>Hold Me Close</music:track>
+		        <music:track>Without Warning</music:track>
+		        <music:track>Stronger</music:track>
+		        <music:track>Sweet Escape</music:track>
+		        <music:track>Outro</music:track>
+		    </music:tracklist>
+			<music:description>Sincere is the third studio music:album by American singer-songwriter Khalid. It was released through RCA Records on August 2, 2024. His first studio music:album release since Free Spirit (2019), the music:album features a sole guest appearance from English singer-songwriter Arlo Parks, who is featured on the eighth music:track, "Breathe".</music:description>
+		</music:album>
+		
+		<music:album id="38">
+		    <music:title>Crash</music:title>
+			<music:cover>../images/songs/image63.png</music:cover>
+		    <music:artist>Kehlani</music:artist>
+		    <music:price>AED 225</music:price>
+		    <music:tracklist>
+		        <music:track>High Tide</music:track>
+		        <music:track>Waterfalls</music:track>
+		        <music:track>Cloud 10</music:track>
+		        <music:track>Last Dance</music:track>
+		        <music:track>Moonlit</music:track>
+		        <music:track>Neon Lights</music:track>
+		        <music:track>Ride the Wave</music:track>
+		        <music:track>Falling</music:track>
+		        <music:track>Back to You</music:track>
+		        <music:track>Final Destination</music:track>
+		    </music:tracklist>
+			<music:description>Crash is the fourth studio music:album by American singer-songwriter Kehlani. Released by Atlantic Records on June 21, 2024, the music:album was supported by three singles: "After Hours", "Next 2 U" and "Crash". The music:album is nominated for Best Progressive R&amp;B music:album at the 67th Grammy Awards.</music:description>
+		</music:album>
+		
+		<music:album id="39">
+		    <music:title>Dopamine</music:title>
+			<music:cover>../images/songs/image50.jpg</music:cover>
+		    <music:artist>Normani</music:artist>
+		    <music:price>AED 310</music:price>
+		    <music:tracklist>
+		        <music:track>Intro</music:track>
+		        <music:track>Feel Good</music:track>
+		        <music:track>Heartbeat</music:track>
+		        <music:track>Sweet &amp; Spicy</music:track>
+		        <music:track>Lose Control</music:track>
+		        <music:track>Adrenaline</music:track>
+		        <music:track>Take Me Higher</music:track>
+		        <music:track>New Sensation</music:track>
+		        <music:track>Crave</music:track>
+		        <music:track>Closing Time</music:track>
+		    </music:tracklist>
+			<music:description>Dopamine is the debut solo studio music:album by American singer Normani. It was released on June 14, 2024, through RCA Records. The music:album features collaborations with Starrah, Gunna, James Blake and Cardi B, along with contributions from Brandy and Victoria Monét.Primarily a pop and R&amp;B record, upon release it was met with generally favorable reviews and appeared on year-end lists, including Rolling Stone's best 100 music:albums of 2024.</music:description>
+		</music:album>
+		
+		<music:album id="40">
+		    <music:title>Cowboy Carter</music:title>
+			<music:cover>../images/songs/image7.png</music:cover>
+		    <music:artist>Beyoncé</music:artist>
+		    <music:price>AED 310</music:price>
+		    <music:tracklist>
+		        <music:track>American Requiem</music:track>
+		        <music:track>Blackbird</music:track>
+		        <music:track>Protector</music:track>
+		        <music:track>My Rose</music:track>
+		        <music:track>Smoke Hour</music:track>
+		        <music:track>Just for Fun</music:track>
+		        <music:track>Ya Ya</music:track>
+		        <music:track>Sweet Honey Buckin'</music:track>
+		        <music:track>Protector II</music:track>
+		        <music:track>Final Song</music:track>
+		    </music:tracklist>
+			<music:description>Cowboy Carter (also referred to as Act II: Cowboy Carter) is the eighth studio music:album by American singer Beyoncé, released on March 29, 2024, via Parkwood Entertainment and Columbia Records. A concept music:album, Cowboy Carter is the second of a planned trilogy of music:albums, following Renaissance (2022). Beyoncé conceived Cowboy Carter as a journey through a reinvention of Americana, spotlighting the overlooked contributions of Black pioneers to American musical and cultural history.</music:description>
+		</music:album>
+		
+		<music:album id="41">
+		    <music:title>Coming Home</music:title>
+			<music:cover>../images/songs/image47.png</music:cover>
+		    <music:artist>Usher</music:artist>
+		    <music:price>AED 330</music:price>
+		    <music:tracklist>
+		        <music:track>Good Good</music:track>
+		        <music:track>Coming Home</music:track>
+		        <music:track>Risk It All</music:track>
+		        <music:track>Bop</music:track>
+		        <music:track>A-Town Girl</music:track>
+		        <music:track>Keep on Dancin'</music:track>
+		        <music:track>Need U</music:track>
+		        <music:track>On the Side</music:track>
+		        <music:track>Lucky</music:track>
+		        <music:track>Mood</music:track>
+		    </music:tracklist>
+			<music:description>Coming Home is the ninth studio music:album by American singer Usher. It was released on February 9, 2024, through gamma.,coinciding with his Super Bowl LVIII halftime show performance.It is Usher's first solo music:album since Hard II Love (2016) and follows the release of his collaborative music:album with record producer Zaytoven, A (2018). Coming Home features collaborations with Burna Boy, Summer Walker, 21 Savage, Latto, The-Dream, H.E.R., Pheelz, and Jungkook.</music:description>
+		</music:album>
+		
+		<music:album id="42">
+		    <music:title>Orquídeas</music:title>
+			<music:cover>../images/songs/image59.jpg</music:cover>
+		    <music:artist>Kali Uchis</music:artist>
+		    <music:price>AED 400</music:price>
+		    <music:tracklist>
+		        <music:track>Muñekita</music:track>
+		        <music:track>No Hay Ley</music:track>
+		        <music:track>Te Mata</music:track>
+		        <music:track>Dame Beso</music:track>
+		        <music:track>Igual Que Un Ángel</music:track>
+		        <music:track>Labios Mordidos</music:track>
+		        <music:track>Tu Corazón Es Mío</music:track>
+		        <music:track>Me Pongo Loca</music:track>
+		        <music:track>Solita</music:track>
+		        <music:track>Orquídeas</music:track>
+		    </music:tracklist>
+			<music:description>Orquídeas is the fourth studio music:album and second Spanish-language music:album by American singer Kali Uchis. It was released on January 12, 2024, through Geffen Records. The music:album features guest appearances by Peso Pluma, El Alfa, JT, Karol G, and Rauw Alejandro. Upon its release, Orquídeas became Uchis' highest charting music:album on the US Billboard 200, debuting at number two with 69,000 units.</music:description>
+		</music:album>
+		
+		<music:album id="43">
+		    <music:title>Between Heaven and Earth</music:title>
+			<music:cover>../images/songs/image68.png</music:cover>
+		    <music:artist>Kenji</music:artist>
+		    <music:price>AED 285</music:price>
+		    <music:tracklist>
+		        <music:track>Into the Light</music:track>
+		        <music:track>Lost Souls</music:track>
+		        <music:track>Higher Ground</music:track>
+		        <music:track>Heaven’s Call</music:track>
+		        <music:track>Angelic Vibes</music:track>
+		        <music:track>Cloud Walking</music:track>
+		        <music:track>Divine Touch</music:track>
+		        <music:track>Ethereal Dreams</music:track>
+		        <music:track>Celestial Glow</music:track>
+		        <music:track>Final Ascent</music:track>
+		    </music:tracklist>
+			<music:description>Between Heaven and Earth is an music:album by trombonist Conrad Bauer, bassist Peter Kowald, and drummer Günter Sommer. It was recorded on November 30 and December 1, 2001, at Radio Studio DRS in Zürich, and was released in 2003 by Intakt Records.</music:description>
+		</music:album>
+		
+		<music:album id="44">
+		    <music:title>The Rebirth 3: The Party &amp; The Bedroom</music:title>
+			<music:cover>../images/songs/image83.jpg</music:cover>
+		    <music:artist>Eric Bellinger</music:artist>
+		    <music:price>AED 265</music:price>
+		    <music:tracklist>
+		        <music:track>Good Vibes</music:track>
+		        <music:track>Slow Motion</music:track>
+		        <music:track>Bedroom Symphony</music:track>
+		        <music:track>Love in the Air</music:track>
+		        <music:track>Passionfruit Nights</music:track>
+		        <music:track>Feel the Heat</music:track>
+		        <music:track>Ride With Me</music:track>
+		        <music:track>Between the Sheets</music:track>
+		        <music:track>Late Night Groove</music:track>
+		        <music:track>The Afterparty</music:track>
+		    </music:tracklist>
+			<music:description>“The Rebirth 3: The Party &amp; The Bedroom” is the third part of a series of music:albums. It marks the 10th anniversary of Eric’s debut music:album, released in 2014. The part 2 was published in 2019.</music:description>
+		</music:album>
+		
+		<music:album id="45">
+		    <music:title>Jaguar II</music:title>
+			<music:cover>../images/songs/image6.png</music:cover>
+		    <music:artist>Victoria Monét</music:artist>
+		    <music:price>AED 210</music:price>
+		    <music:tracklist>
+		        <music:track>Smoke</music:track>
+		        <music:track>Party Girls</music:track>
+		        <music:track>How Does It Make You Feel</music:track>
+		        <music:track>Alright</music:track>
+		        <music:track>I'm the One</music:track>
+		        <music:track>Stop</music:track>
+		        <music:track>Hollywood</music:track>
+		        <music:track>Goodbye</music:track>
+		        <music:track>On My Mama</music:track>
+		        <music:track>Cadillac</music:track>
+		    </music:tracklist>
+			<music:description>Jaguar II is the debut studio music:album by American R&amp;B singer-songwriter Victoria Monét, and her first major label release. It was released on August 25, 2023, through Lovett Music and RCA Records.The music:album was supported by four singles: "Smoke" with Lucky Daye, "Party Girls" with Buju Banton, "On My Mama", and "Alright".</music:description>
+		</music:album>
+		
+		
+	</music:genre>
+	<music:genre name = "Rock" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>With powerful guitar riffs, dynamic rhythms, and emotional lyrics, Rock music has shaped the global music landscape. From classic legends to contemporary music:artists, it’s a music:genre that continues to evolve while staying true to its roots.</music:details>
+		<music:album id="46">
+		    <music:title>Highway to Hell</music:title>
+			<music:cover>../images/songs/image4.png</music:cover>
+		    <music:artist>AC/DC</music:artist>
+		    <music:price>AED 275</music:price>
+		    <music:tracklist>
+		        <music:track>Highway to Hell</music:track>
+		        <music:track>Girls Got Rhythm</music:track>
+		        <music:track>Walk All Over You</music:track>
+		        <music:track>Touch Too Much</music:track>
+		        <music:track>Beating Around the Bush</music:track>
+		        <music:track>Shot Down in Flames</music:track>
+		        <music:track>Get It Hot</music:track>
+		        <music:track>If You Want Blood (You've Got It)</music:track>
+		        <music:track>Love Hungry Man</music:track>
+		        <music:track>Night Prowler</music:track>
+		    </music:tracklist>
+			<music:description>Highway to Hell is the sixth studio music:album by Australian hard rock band AC/DC, released on 27 July 1979, by Albert Productions and Atlantic Records. It is the first of three music:albums produced by Robert John "Mutt" Lange, and is the last music:album featuring lead singer Bon Scott, who died on 19 February 1980.</music:description>
+		</music:album>
+		
+		<music:album id="47">
+		    <music:title>Dirt</music:title>
+			<music:cover>../images/songs/image78.png</music:cover>
+		    <music:artist>Alice in Chains</music:artist>
+		    <music:price>AED 330</music:price>
+		    <music:tracklist>
+		        <music:track>Them Bones</music:track>
+		        <music:track>Dam That River</music:track>
+		        <music:track>Rain When I Die</music:track>
+		        <music:track>Down in a Hole</music:track>
+		        <music:track>Sickman</music:track>
+		        <music:track>Rooster</music:track>
+		        <music:track>Junkhead</music:track>
+		        <music:track>Dirt</music:track>
+		        <music:track>God Smack</music:track>
+		        <music:track>Hate to Feel</music:track>
+		    </music:tracklist>
+			<music:description>Dirt is the second studio music:album by American rock band Alice in Chains, released on September 29, 1992 by Columbia Records. It was the band's last music:album recorded with all four original members.The music:album's lyrics explore depression, pain, anger, anti-social behavior, relationships, drug addiction, war, death, and other emotionally charged topics.</music:description>
+		</music:album>
+		
+		<music:album id="48">
+		    <music:title>Magical Mystery Tour</music:title>
+			<music:cover>../images/songs/image11.png</music:cover>
+		    <music:artist>The Beatles</music:artist>
+		    <music:price>AED 215</music:price>
+		    <music:tracklist>
+		        <music:track>Magical Mystery Tour</music:track>
+		        <music:track>The Fool on the Hill</music:track>
+		        <music:track>Flying</music:track>
+		        <music:track>Blue Jay Way</music:track>
+		        <music:track>Your Mother Should Know</music:track>
+		        <music:track>I Am the Walrus</music:track>
+		        <music:track>Hello, Goodbye</music:track>
+		        <music:track>Strawberry Fields Forever</music:track>
+		        <music:track>Penny Lane</music:track>
+		        <music:track>All You Need Is Love</music:track>
+		    </music:tracklist>
+			<music:description>Magical Mystery Tour is a record by the English rock band the Beatles that was released as a double EP in the United Kingdom and an LP in the United States. It includes the soundmusic:track to the 1967 television film of the same music:title. The EP was issued in the UK on 8 December 1967 on the Parlophone label, while the Capitol Records LP release in the US and Canada occurred on 27 November and features an additional five songs that were originally released as singles that year. In 1976, Parlophone released the eleven-music:track LP in the UK.</music:description>
+		</music:album>
+		
+		<music:album id="49">
+		    <music:title>The Rise and Fall of Ziggy Stardust and the Spiders from Mars</music:title>
+			<music:cover>../images/songs/image17.png</music:cover>
+		    <music:artist>David Bowie</music:artist>
+		    <music:price>AED 365</music:price>
+		    <music:tracklist>
+		        <music:track>Five Years</music:track>
+		        <music:track>Soul Love</music:track>
+		        <music:track>Moonage Daydream</music:track>
+		        <music:track>Starman</music:track>
+		        <music:track>It Ain’t Easy</music:track>
+		        <music:track>Lady Stardust</music:track>
+		        <music:track>Star</music:track>
+		        <music:track>Hang on to Yourself</music:track>
+		        <music:track>Ziggy Stardust</music:track>
+		        <music:track>Rock 'n' Roll Suicide</music:track>
+		    </music:tracklist>
+			<music:description>The Rise and Fall of Ziggy Stardust and the Spiders from Mars (often shortened to Ziggy Stardust[1]) is the fifth studio music:album by the English musician David Bowie, released on 16 June 1972 in the United Kingdom through RCA Records. It was co-produced by Bowie and Ken Scott and features Bowie's backing band the Spiders from Mars, composed of Mick Ronson (guitar), Trevor Bolder (bass) and Mick Woodmansey (drums).</music:description>
+		</music:album>
+		
+		<music:album id="50">
+		    <music:title>In Rock</music:title>
+			<music:cover>../images/songs/image51.png</music:cover>
+		    <music:artist>Deep Purple</music:artist>
+		    <music:price>AED 290</music:price>
+		    <music:tracklist>
+		        <music:track>Speed King</music:track>
+		        <music:track>Bloodsucker</music:track>
+		        <music:track>Child in Time</music:track>
+		        <music:track>Flight of the Rat</music:track>
+		        <music:track>Into the Fire</music:track>
+		        <music:track>Living Wreck</music:track>
+		        <music:track>Hard Lovin' Man</music:track>
+		    </music:tracklist>
+			<music:description>Deep Purple in Rock is the fourth studio music:album by English rock band Deep Purple, released on 5 June 1970.[1] It was the first studio music:album recorded by the Mark II line-up of Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord and Ian Paice.</music:description>
+		</music:album>
+		
+		<music:album id="51">
+		    <music:title>White Pony</music:title>
+			<music:cover>../images/songs/image39.png</music:cover>
+		    <music:artist>Deftones</music:artist>
+		    <music:price>AED 280</music:price>
+		    <music:tracklist>
+		        <music:track>Feiticeira</music:track>
+		        <music:track>Digital Bath</music:track>
+		        <music:track>Elite</music:track>
+		        <music:track>Rx Queen</music:track>
+		        <music:track>Street Carp</music:track>
+		        <music:track>Teenager</music:track>
+		        <music:track>Knife Prty</music:track>
+		        <music:track>Korea</music:track>
+		        <music:track>Passenger</music:track>
+		        <music:track>Change (In the House of Flies)</music:track>
+		    </music:tracklist>
+			<music:description>White Pony is the third studio music:album by the American alternative metal band Deftones, released on June 20, 2000, through Maverick Records. It was produced by Terry Date, who produced the band's first two music:albums, Adrenaline (1995) and Around the Fur (1997). Recording sessions took place between August and December 1999 at Larrabee Sound Studios in West Hollywood and The Plant Recording Studios in Sausalito, California.</music:description>
+		</music:album>
+		
+		<music:album id="52">
+		    <music:title>Rumours</music:title>
+			<music:cover>../images/songs/image24.png</music:cover>
+		    <music:artist>Fleetwood Mac</music:artist>
+		    <music:price>AED 355</music:price>
+		    <music:tracklist>
+		        <music:track>Second Hand News</music:track>
+		        <music:track>Dreams</music:track>
+		        <music:track>Never Going Back Again</music:track>
+		        <music:track>Don't Stop</music:track>
+		        <music:track>Go Your Own Way</music:track>
+		        <music:track>Songbird</music:track>
+		        <music:track>The Chain</music:track>
+		        <music:track>You Make Loving Fun</music:track>
+		        <music:track>I Don't Want to Know</music:track>
+		        <music:track>Gold Dust Woman</music:track>
+		    </music:tracklist>
+			<music:description>Rumours is the eleventh studio music:album by the British-American rock band Fleetwood Mac, released on 4 February 1977, by Warner Bros. Records. Largely recorded in California in 1976, it was produced by the band with Ken Caillat and Richard Dashut. The recording sessions took place as the band members dealt with breakups and struggled with heavy drug use, both of which shaped the music:album's direction and lyrics.</music:description>
+		</music:album>
+		
+		<music:album id="53">
+		    <music:title>Appetite for Destruction</music:title>
+			<music:cover>../images/songs/image61.png</music:cover>
+		    <music:artist>Guns N’ Roses</music:artist>
+		    <music:price>AED 310</music:price>
+		    <music:tracklist>
+		        <music:track>Welcome to the Jungle</music:track>
+		        <music:track>It's So Easy</music:track>
+		        <music:track>Nightrain</music:track>
+		        <music:track>Out Ta Get Me</music:track>
+		        <music:track>Mr. Brownstone</music:track>
+		        <music:track>Paradise City</music:track>
+		        <music:track>My Michelle</music:track>
+		        <music:track>Think About You</music:track>
+		        <music:track>Sweet Child o' Mine</music:track>
+		        <music:track>Rocket Queen</music:track>
+		    </music:tracklist>
+			<music:description>Appetite for Destruction is the debut studio music:album by American hard rock band Guns N' Roses, released on July 21, 1987, by Geffen Records. It initially received little mainstream attention, and it was not until the following year that Appetite for Destruction became a commercial success, after the band had toured and received significant airplay with the singles "Welcome to the Jungle", "Paradise City", and "Sweet Child o' Mine". The music:album went on to peak at number one on the US Billboard 200, and it became the seventh best-selling music:album of all time in the United States, as well as the best-selling debut music:album in the country. With over 30 million copies sold, it is also one of the best-selling music:albums worldwide.</music:description>
+		</music:album>
+		
+		<music:album id="54">
+		    <music:title>In the Court of the Crimson King</music:title>
+			<music:cover>../images/songs/image36.png</music:cover>
+		    <music:artist>King Crimson</music:artist>
+		    <music:price>AED 295</music:price>
+		    <music:tracklist>
+		        <music:track>21st Century Schizoid Man</music:track>
+		        <music:track>I Talk to the Wind</music:track>
+		        <music:track>Epitaph</music:track>
+		        <music:track>Moonchild</music:track>
+		        <music:track>The Court of the Crimson King</music:track>
+		    </music:tracklist>
+			<music:description>In the Court of the Crimson King (submusic:titled An Observation by King Crimson) is the debut studio music:album by English progressive rock band King Crimson, released on 10 October 1969, by Island Records.[3] Often regarded as the first true progressive rock music:album, it combined rock music influences with elements of jazz, classical, and symphonic music.</music:description>
+		</music:album>
+		
+		<music:album id="55">
+		    <music:title>Led Zeppelin IV</music:title>
+			<music:cover>../images/songs/image35.png</music:cover>
+		    <music:artist>Led Zeppelin</music:artist>
+		    <music:price>AED 340</music:price>
+		    <music:tracklist>
+		        <music:track>Black Dog</music:track>
+		        <music:track>Rock and Roll</music:track>
+		        <music:track>The Battle of Evermore</music:track>
+		        <music:track>Stairway to Heaven</music:track>
+		        <music:track>Misty Mountain Hop</music:track>
+		        <music:track>Four Sticks</music:track>
+		        <music:track>Going to California</music:track>
+		        <music:track>When the Levee Breaks</music:track>
+		    </music:tracklist>
+			<music:description>The unmusic:titled fourth studio music:album by the English rock band Led Zeppelin, commonly known as Led Zeppelin IV,[a] was released on 8 November 1971, by Atlantic Records. Produced by the band's guitarist, Jimmy Page, it was recorded between December 1970 and February 1971, mostly in the country house Headley Grange. The music:album contains one of the band's most well-known recordings, the eight-minute-long "Stairway to Heaven".</music:description>
+		</music:album>
+		
+		<music:album id="56">
+		    <music:title>OK Computer</music:title>
+			<music:cover>../images/songs/image15.png</music:cover>
+		    <music:artist>Radiohead</music:artist>
+		    <music:price>AED 225</music:price>
+		    <music:tracklist>
+		        <music:track>Airbag</music:track>
+		        <music:track>Paranoid Android</music:track>
+		        <music:track>Subterranean Homesick Alien</music:track>
+		        <music:track>Exit Music (For a Film)</music:track>
+		        <music:track>Let Down</music:track>
+		        <music:track>Karma Police</music:track>
+		        <music:track>Fitter Happier</music:track>
+		        <music:track>Electioneering</music:track>
+		        <music:track>No Surprises</music:track>
+		        <music:track>The Tourist</music:track>
+		    </music:tracklist>
+			<music:description>OK Computer is the third studio music:album by the English rock band Radiohead, released on 21 May 1997. With their producer, Nigel Godrich, Radiohead recorded most of OK Computer in their rehearsal space in Oxfordshire and the historic mansion of St Catherine's Court in Bath in 1996 and early 1997. They distanced themselves from the guitar-centred, lyrically introspective style of their previous music:album, The Bends. OK Computer's abstract lyrics, densely layered sound and eclectic influences laid the groundwork for Radiohead's later, more experimental work.</music:description>
+		</music:album>
+		
+		<music:album id="57">
+		    <music:title>Rising</music:title>
+			<music:cover>../images/songs/image8.png</music:cover>
+		    <music:artist>Rainbow</music:artist>
+		    <music:price>AED 400</music:price>
+		    <music:tracklist>
+		        <music:track>Tarot Woman</music:track>
+		        <music:track>Run with the Wolf</music:track>
+		        <music:track>Starstruck</music:track>
+		        <music:track>Do You Close Your Eyes</music:track>
+		        <music:track>Stargazer</music:track>
+		        <music:track>A Light in the Black</music:track>
+		    </music:tracklist>
+			<music:description>Rising (also known as Rainbow Rising) is the second studio music:album by the British-American rock band Rainbow. It was released on 17 May 1976. It was the first music:album to feature drummer Cozy Powell and the only music:album with bassist Jimmy Bain.</music:description>
+		</music:album>
+		
+		<music:album id="58">
+		    <music:title>Exile on Main St</music:title>
+			<music:cover>../images/songs/image25.png</music:cover>
+		    <music:artist>The Rolling Stones</music:artist>
+		    <music:price>AED 315</music:price>
+		    <music:tracklist>
+		        <music:track>Rocks Off</music:track>
+		        <music:track>Rip This Joint</music:track>
+		        <music:track>Shake Your Hips</music:track>
+		        <music:track>Tumbling Dice</music:track>
+		        <music:track>Sweet Virginia</music:track>
+		        <music:track>Happy</music:track>
+		        <music:track>Turd on the Run</music:track>
+		        <music:track>Ventilator Blues</music:track>
+		        <music:track>I Just Want to See His Face</music:track>
+		        <music:track>Let It Loose</music:track>
+		    </music:tracklist>
+			<music:description>Exile on Main St. is the tenth studio music:album by the English rock band the Rolling Stones, released on 12 May 1972, by Rolling Stones Records.[3] The 10th released in the UK and 12th in the US, it is viewed as a culmination of a string of the band's most critically successful music:albums, following Beggars Banquet (1968), Let It Bleed (1969) and Sticky Fingers (1971).[4] Exile on Main St. is known for its murky, inconsistent sound due to more disjointed musicianship and production, along with a party-like atmosphere heard in several music:tracks.</music:description>
+		</music:album>
+		
+		
+	</music:genre>
+	<music:genre name ="K-Pop" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>A dynamic music:genre blending Korean language with infectious beats, vibrant choreography, and unique fashion. K-Pop’s global influence continues to grow, with groups and solo music:artists captivating fans worldwide through music, performance, and culture.</music:details>
+		<music:album id="59">
+		    <music:title>Map of the Soul 7</music:title>
+			<music:cover>../images/songs/image45.png</music:cover>
+		    <music:artist>BTS</music:artist>
+		    <music:price>AED 280</music:price>
+		    <music:tracklist>
+		        <music:track>Intro: Persona</music:track>
+		        <music:track>Boy with Luv (feat. Halsey)</music:track>
+		        <music:track>Make It Right</music:track>
+		        <music:track>Dionysus</music:track>
+		        <music:track>Interlude: Shadow</music:track>
+		        <music:track>Black Swan</music:track>
+		        <music:track>ON</music:track>
+		        <music:track>Outro: Ego</music:track>
+		    </music:tracklist>
+			<music:description>Map of the Soul: 7 is the fourth Korean-language and seventh overall studio music:album by South Korean boy band BTS. The music:album was released on February 21, 2020, by Big Hit Entertainment. It is the follow-up to their 2019 extended play Map of the Soul: Persona, with five of its songs appearing on the music:album. Described by BTS as "deeply personal", the music:album is influenced by their journey and growth of seven years since their debut. Map of the Soul: 7 has been described as a pop, R&amp;B, and hip-hop record that contains influences from urban contemporary music:genres like rock, trap, and EDM. Lyrically, it touches upon themes of reflection, introspection, and self-acceptance.</music:description>
+		</music:album>
+		
+		<music:album id="60">
+		    <music:title>Formula of Love: O+T=&lt;3</music:title>
+			<music:cover>../images/songs/image34.png</music:cover>
+		    <music:artist>Twice</music:artist>
+		    <music:price>AED 375</music:price>
+		    <music:tracklist>
+		        <music:track>SCIENTIST</music:track>
+		        <music:track>MOONLIGHT</music:track>
+		        <music:track>ICON</music:track>
+		        <music:track>CRUEL</music:track>
+		        <music:track>REAL YOU</music:track>
+		        <music:track>F.I.L.A (Fall In Love Again)</music:track>
+		        <music:track>LAST WALTZ</music:track>
+		        <music:track>ESPRESSO</music:track>
+		    </music:tracklist>
+			<music:description>Formula of Love: O+T=&lt;3 is the third Korean studio music:album (sixth overall) by South Korean girl group Twice. It was released on November 12, 2021, by JYP Entertainment and Republic Records. It consists of sixteen music:tracks, including the group's first English single, "The Feels", and lead single "Scientist". The music:album is primarily a disco-pop and synth-pop record that also incorporates other genres such as Latin pop, hip hop, and R&amp;B.</music:description>
+		</music:album>
+		
+		<music:album id="61">
+		    <music:title>NewJeans</music:title>
+			<music:cover>../images/songs/image16.png</music:cover>
+		    <music:artist>NewJeans</music:artist>
+		    <music:price>AED 320</music:price>
+		    <music:tracklist>
+		        <music:track>Attention</music:track>
+		        <music:track>Hype Boy</music:track>
+		        <music:track>Cookie</music:track>
+		        <music:track>Hurt</music:track>
+		    </music:tracklist>
+			<music:description>New Jeans is the debut extended play (EP) by the South Korean girl group NewJeans. It was released on August 1, 2022, by ADOR, a subsidiary of Hybe Corporation. Produced by Min Hee-jin, 250, and Park Jin-su, the EP draws from synth-pop and R&amp;B and infuses elements of musical styles from the 1990s and 2000s decades. The songs "Attention", "Hype Boy", and "Cookie" were released as singles.</music:description>
+		</music:album>
+		
+		<music:album id="62">
+		    <music:title>J</music:title>
+			<music:cover>../images/songs/image53.png</music:cover>
+		    <music:artist>Jaehyun</music:artist>
+		    <music:price>AED 295</music:price>
+		    <music:tracklist>
+		        <music:track>Smoke</music:track>
+				<music:track>Roses</music:track>
+				<music:track>Flamin' Hot Lemon</music:track>
+				<music:track>Dandelion</music:track>
+		        <music:track>Completely</music:track>
+				<music:track>Easy</music:track>
+				<music:track>Can't Get You</music:track>
+				<music:track>Smoke (English Version)</music:track>
+		    </music:tracklist>
+			<music:description>J is the debut studio music:album by South Korean singer Jaehyun. It was released on August 26, 2024, by SM Entertainment through Kakao Entertainment, and contained eight music:tracks. The music:album marked Jaehyun as the fourth NCT member to make an official solo debut.</music:description>
+		</music:album>
+		
+		<music:album id="63">
+		    <music:title>NCT #127 Neo Zone</music:title>
+			<music:cover>../images/songs/image87.png</music:cover>
+		    <music:artist>NCT 127</music:artist>
+		    <music:price>AED 300</music:price>
+		    <music:tracklist>
+		        <music:track>Kick It</music:track>
+		        <music:track>Pandora’s Box</music:track>
+		        <music:track>Day Dream</music:track>
+		        <music:track>Love Me Now</music:track>
+		        <music:track>Not Alone</music:track>
+		        <music:track>Dreams Come True</music:track>
+		    </music:tracklist>
+			<music:description>Neo Zone (also known as NCT #127: Neo Zone) is the second Korean studio music:album (third overall) by the South Korean boy band NCT 127. Preceded by the music video release for "Dreams Come True" on NCT 127 Day, January 27 (1/27), the 13-music:track music:album was released through SM Entertainment and Capitol Music Group on March 6, 2020.[3] Neo Zone contains various musical genres from hip hop, R&amp;B, funk, to electro-pop, which aimed to create a soundscape that broadened the group's sonic vision.</music:description>
+		</music:album>
+		
+		<music:album id="64">
+		    <music:title>4 ONLY</music:title>
+			<music:cover>../images/songs/image44.png</music:cover>
+		    <music:artist>LeeHi</music:artist>
+		    <music:price>AED 350</music:price>
+		    <music:tracklist>
+		        <music:track>Savior(feat. B.I)</music:track>
+		        <music:track>Red Lipstick(feat. Yoon Mirae)</music:track>
+		        <music:track>ONLY</music:track>
+		        <music:track>H.S.K.T(feat. Wonstein)</music:track>
+		    </music:tracklist>
+			<music:description>4 Only is the third Korean-language and fourth overall studio music:album by South Korean singer and songwriter Lee Hi, released on September 9, 2021, through AOMG.It is Lee's first studio music:album since Seoulite (2016), and first collection of new material since her 2019 EP 24°C and subsequent departure from YG Entertainment</music:description>
+		</music:album>
+		
+		<music:album id="65">
+		    <music:title>IN生</music:title>
+			<music:cover>../images/songs/image32.png</music:cover>
+		    <music:artist>Stray Kids</music:artist>
+		    <music:price>AED 250</music:price>
+		    <music:tracklist>
+		        <music:track>Back Door</music:track>
+		        <music:track>Ex</music:track>
+		        <music:track>Any</music:track>
+		        <music:track>We Go</music:track>
+		        <music:track>Wow</music:track>
+		        <music:track>My Universe</music:track>
+		    </music:tracklist>
+			<music:description>The reissue edition of the music:album Go live, music:titled In Life(IN生) was released on September 14, 2020, along with eight new music:tracks, including lead single "Back Door".</music:description>
+		</music:album>
+		
+		<music:album id="66">
+		    <music:title>DIMENSION:DILEMMA</music:title>
+			<music:cover>../images/songs/image56.png</music:cover>
+		    <music:artist>ENHYPEN</music:artist>
+		    <music:price>AED 340</music:price>
+		    <music:tracklist>
+		        <music:track>Intro: Whiteout</music:track>
+		        <music:track>Tamed-Dashed</music:track>
+		        <music:track>Upper Side Dreamin'</music:track>
+		        <music:track>Just a Little Bit</music:track>
+		        <music:track>Go Big or Go Home</music:track>
+		    </music:tracklist>
+			<music:description>Dimension: Dilemma is the debut studio music:album by South Korean boy band Enhypen. It was released on October 12, 2021, through Belift Lab. The music:album consists of eight music:tracks, including the lead single "Tamed-Dashed"</music:description>
+		</music:album>
+		
+		<music:album id="67">
+		    <music:title>Face the Sun</music:title>
+			<music:cover>../images/songs/image13.png</music:cover>
+		    <music:artist>SEVENTEEN</music:artist>
+		    <music:price>AED 300</music:price>
+		    <music:tracklist>
+		        <music:track>HOT</music:track>
+		        <music:track>Darl+ing</music:track>
+		        <music:track>DON QUIXOTE</music:track>
+		        <music:track>MARCH</music:track>
+		        <music:track>Shadow</music:track>
+		        <music:track>'bout you</music:track>
+		    </music:tracklist>
+			<music:description>Face the Sun is the fourth studio music:album by South Korean boy band Seventeen. It was released on May 27, 2022, by Pledis Entertainment through YG Plus. The music:album contains nine music:tracks, with "Hot" serving as lead single. The first music:track, "Darl+ing", was pre-released on April 15, 2022.</music:description>
+		</music:album>
+		
+		<music:album id="68">
+		    <music:title>UNFORGIVEN</music:title>
+			<music:cover>../images/songs/image42.png</music:cover>
+		    <music:artist>LE SSERAFIM</music:artist>
+		    <music:price>AED 260</music:price>
+		    <music:tracklist>
+		        <music:track>Unforgiven</music:track>
+		        <music:track>No-Return(Into the Unknown)</music:track>
+		        <music:track>Fearless</music:track>
+		        <music:track>Antifragile</music:track>
+		    </music:tracklist>
+			<music:description>Unforgiven is the first studio music:album by South Korean girl group Le Sserafim, released by Source Music on May 1, 2023. It contains 13 music:tracks, including the singles "Unforgiven" and "Eve, Psyche &amp; the Bluebeard's Wife".The music:album debuted at number one on the Circle music:album Chart and was certified million by the Korea Music Content Association for selling 1,000,000 units.</music:description>
+		</music:album>
+		
+		<music:album id="69">
+		    <music:title>Crazy in Love</music:title>
+			<music:cover>../images/songs/image67.png</music:cover>
+		    <music:artist>ITZY</music:artist>
+		    <music:price>AED 295</music:price>
+		    <music:tracklist>
+		        <music:track>LOCO</music:track>
+		        <music:track>SWIPE</music:track>
+		        <music:track>Sooo Lucky</music:track>
+		        <music:track>Gas Me Up</music:track>
+		    </music:tracklist>
+			<music:description>Crazy in Love is the first studio music:album by South Korean girl group Itzy. It consists of sixteen music:tracks, including the lead single "Loco". It was released on September 24, 2021, by JYP Entertainment.</music:description>
+		</music:album>
+		
+		<music:album id="70">
+		    <music:title>ROMANCE:UNTOLD</music:title>
+			<music:cover>../images/songs/image49.png</music:cover>
+		    <music:artist>ENHYPEN</music:artist>
+		    <music:price>AED 290</music:price>
+		    <music:tracklist>
+		    	<music:track>Moonstruck</music:track>
+		    	<music:track>XO (Only If You Say Yes)</music:track>
+		    	<music:track>Your Eyes Only</music:track>
+		    	<music:track>Hundread Broken Hearts</music:track>
+		    	<music:track>Brought The Heat Back</music:track>
+		        <music:track>Paranormal</music:track>
+		        <music:track>Royalty</music:track>
+		        <music:track>Highway 1009</music:track>
+		    </music:tracklist>
+			<music:description>Romance: Untold is the second Korean-language studio music:album by South Korean boy band Enhypen, released on July 12, 2024, through Belift Lab. The music:album consists of nine music:tracks, including the lead single "XO (Only If You Say Yes)". It reached number one in South Korea, Japan and France, and number two on the US Billboard 200.</music:description>
+		</music:album>
+		
+		<music:album id="71">
+		    <music:title>THE music:album</music:title>
+			<music:cover>../images/songs/image29.png</music:cover>
+		    <music:artist>BLACKPINK</music:artist>
+		    <music:price>AED 300</music:price>
+		    <music:tracklist>
+		        <music:track>How You Like That</music:track>
+		        <music:track>Ice Cream (feat. Selena Gomez)</music:track>
+		        <music:track>Pretty Savage</music:track>
+		        <music:track>Bet You Wanna (feat. Cardi B)</music:track>
+		        <music:track>Lovesick Girls</music:track>
+		        <music:track>Crazy Over You</music:track>
+		    </music:tracklist>
+			<music:description>The music:album is the debut studio music:album by South Korean girl group Blackpink. It was released on October 2, 2020, through YG Entertainment and Interscope Records. It is the group's first full-length work since their debut in 2016. For the music:album, Blackpink recorded over ten new songs and worked with a variety of producers, including Teddy, Tommy Brown, R. Tee, Steven Franks, and 24. Eight songs made the final music:tracklist, including two collaborations: "Ice Cream" with Selena Gomez, and "Bet You Wanna", featuring Cardi B. The music:album explores the themes of love and the complexities of growing up. Musically, The music:album utilizes pop, R&amp;B, hip hop, EDM, and trap elements</music:description>
+		</music:album>
+		
+		<music:album id="72">
+		    <music:title>DRIP</music:title>
+			<music:cover>../images/songs/image26.png</music:cover>
+		    <music:artist>BABYMONSTER</music:artist>
+		    <music:price>AED 225</music:price>
+		    <music:tracklist>
+		        <music:track>BATTER UP</music:track>
+		        <music:track>Stuck in the Middle</music:track>
+		        <music:track>Like That</music:track>
+		    </music:tracklist>
+			<music:description>Drip is the debut studio music:album by South Korean girl group Babymonster. It was released by YG Entertainment on November 1, 2024. The music:album contains 9 songs, including the music:title music:tracks "Drip" and "Clik Clak", and the pre-release single "Forever".</music:description>
+		</music:album>
+		
+		<music:album id="73">
+		    <music:title>Indigo</music:title>
+			<music:cover>../images/songs/image84.png</music:cover>
+		    <music:artist>RM</music:artist>
+		    <music:price>AED 340</music:price>
+		    <music:tracklist>
+		        <music:track>Yun (feat. Erykah Badu)</music:track>
+		        <music:track>Still Life (feat. Anderson .Paak)</music:track>
+		        <music:track>All Day (feat. Tablo)</music:track>
+		        <music:track>Wild Flower (feat. Youjeen)</music:track>
+		    </music:tracklist>
+			<music:description>Indigo is the debut studio music:album by South Korean rapper RM of BTS, released on December 2, 2022, through Big Hit Music. The music:album marks the rapper's first full-length body of work since Mono (2018) and serves as a documentation or archive of his late twenties.</music:description>
+		</music:album>
+		
+		
+	</music:genre>
+	<music:genre name = "Jazz" xmlns:music="http://RusticRhythmsXML.com/XML">
+	<music:details>Rooted in improvisation and swing rhythms, Jazz offers a rich, emotional journey through intricate melodies and harmonies. Born from African American communities, it continues to evolve, influencing contemporary music and showcasing creativity in every performance.</music:details>
+		<music:album id="74">
+		    <music:title>Time Out</music:title>
+			<music:cover>../images/songs/image76.png</music:cover>
+		    <music:artist>Dave Brubeck</music:artist>
+		    <music:price>AED 270</music:price>
+		    <music:tracklist>
+		        <music:track>Blue Rondo à la Turk</music:track>
+		        <music:track>Strange Meadow Lark</music:track>
+		        <music:track>Take Five</music:track>
+		        <music:track>Three to Get Ready</music:track>
+		        <music:track>Kathy’s Waltz</music:track>
+		        <music:track>Everybody’s Jumpin’</music:track>
+		        <music:track>Pick Up Sticks</music:track>
+		    </music:tracklist>
+			<music:description>Time Out is a studio music:album by the American jazz group the Dave Brubeck Quartet, released in 1959 on Columbia Records. Recorded at Columbia's 30th Street Studio in New York City, it is based upon the use of time signatures that were unusual for jazz. The music:album is a subtle blend of cool and West Coast jazz.</music:description>
+		</music:album>
+		
+		<music:album id="75">
+		    <music:title>Blue Train</music:title>
+			<music:cover>../images/songs/image65.png</music:cover>
+		    <music:artist>John Coltrane</music:artist>
+		    <music:price>AED 310</music:price>
+		    <music:tracklist>
+		        <music:track>Blue Train</music:track>
+		        <music:track>Moment’s Notice</music:track>
+		        <music:track>Locomotion</music:track>
+		        <music:track>I’m Old Fashioned</music:track>
+		        <music:track>Lazy Bird</music:track>
+		    </music:tracklist>
+			<music:description>Blue Train is a studio music:album by the jazz saxophonist and composer John Coltrane. It was released through Blue Note Records in January 1958. It is Coltrane's only session as leader for Blue Note. The recording took place at Rudy Van Gelder's studio on September 15, 1957.</music:description>
+		</music:album>
+		
+		<music:album id="76">
+		    <music:title>The Sidewinder</music:title>
+			<music:cover>../images/songs/image33.png</music:cover>
+		    <music:artist>Lee Morgan</music:artist>
+		    <music:price>AED 265</music:price>
+		    <music:tracklist>
+		        <music:track>The Sidewinder</music:track>
+		        <music:track>Totem Pole</music:track>
+		        <music:track>Gary’s Notebook</music:track>
+		        <music:track>Boy, What a Night</music:track>
+		        <music:track>Hocus-Pocus</music:track>
+		    </music:tracklist>
+			<music:description>The Sidewinder is a 1964 music:album by the jazz trumpeter Lee Morgan, recorded at the Van Gelder Studio in Englewood Cliffs, New Jersey, U.S. It was released on the Blue Note label as BLP 4157 and BST 84157</music:description>
+		</music:album>
+		
+		<music:album id="77">
+		    <music:title>The Turnaround</music:title>
+			<music:cover>../images/songs/image88.png</music:cover>
+		    <music:artist>Hank Mobley</music:artist>
+		    <music:price>AED 285</music:price>
+		    <music:tracklist>
+		        <music:track>The Turnaround</music:track>
+		        <music:track>East of the Village</music:track>
+		        <music:track>The Good Life</music:track>
+		        <music:track>Straight Ahead</music:track>
+		        <music:track>My Sin</music:track>
+		        <music:track>Pat’N’Chat</music:track>
+		    </music:tracklist>
+			<music:description>The Turnaround! is an music:album by jazz tenor saxophonist Hank Mobley recorded on March 7, 1963 and on February 4, 1965. It was released in 1965 by Blue Note Records.It features performances by Mobley with trumpeter Donald Byrd, pianist Herbie Hancock, bassist Butch Warren and drummer Philly Joe Jones from the earlier session and trumpeter Freddie Hubbard, pianist Barry Harris, bassist Paul Chambers and drummer Billy Higgins from the latter.</music:description>
+		</music:album>
+		
+		<music:album id="78">
+		    <music:title>Ella &amp; Louis</music:title>
+			<music:cover>../images/songs/image85.png</music:cover>
+		    <music:artist>Ella Fitzgerald &amp; Louis Armstrong</music:artist>
+		    <music:price>AED 400</music:price>
+		    <music:tracklist>
+		        <music:track>Can’t We Be Friends</music:track>
+		        <music:track>Isn’t This a Lovely Day?</music:track>
+		        <music:track>Moonlight in Vermont</music:track>
+		        <music:track>They Can’t Take That Away from Me</music:track>
+		        <music:track>Cheek to Cheek</music:track>
+		        <music:track>April in Paris</music:track>
+		    </music:tracklist>
+			<music:description>Louis is a studio music:album by Ella Fitzgerald and Louis Armstrong, accompanied by the Oscar Peterson Quartet, released in October 1956.Having previously collaborated in the late 1940s for the Decca label, this was the first of three music:albums that Fitzgerald and Armstrong were to record together for Verve Records, later followed by 1957's Ella and Louis Again and 1959's Porgy and Bess.</music:description>
+		</music:album>
+		
+		<music:album id="79">
+		    <music:title>Moanin’</music:title>
+			<music:cover>../images/songs/image14.png</music:cover>
+		    <music:artist>Art Blakey</music:artist>
+		    <music:price>AED 320</music:price>
+		    <music:tracklist>
+		        <music:track>Moanin’</music:track>
+		        <music:track>Are You Real</music:track>
+		        <music:track>Along Came Betty</music:track>
+		        <music:track>The Drum Thunder Suite</music:track>
+		        <music:track>Blues March</music:track>
+		        <music:track>Come Rain or Come Shine</music:track>
+		    </music:tracklist>
+			<music:description>Art Blakey and the Jazz Messengers, also called Moanin', is a studio music:album by Art Blakey and the Jazz Messengers recorded on October 30, 1958, and released on Blue Note later that year.</music:description>
+		</music:album>
+		
+		<music:album id="80">
+		    <music:title>Everybody Digs Bill Evans</music:title>
+			<music:cover>../images/songs/image75.png</music:cover>
+		    <music:artist>Bill Evans</music:artist>
+		    <music:price>AED 350</music:price>
+		    <music:tracklist>
+		        <music:track>Minority</music:track>
+		        <music:track>Young and Foolish</music:track>
+		        <music:track>Lucky to Be Me</music:track>
+		        <music:track>Night and Day</music:track>
+		        <music:track>Peace Piece</music:track>
+		    </music:tracklist>
+			<music:description>Everybody Digs Bill Evans is a trio and solo music:album by jazz pianist Bill Evans. It was released in early 1959 on the Riverside Records label. The music:cover of the music:album features tribute quotations from some of Evans's most esteemed contemporaries</music:description>
+		</music:album>
+		
+		<music:album id="81">
+		    <music:title>Ellington Indigos</music:title>
+			<music:cover>../images/songs/image55.png</music:cover>
+		    <music:artist>Duke Ellington</music:artist>
+		    <music:price>AED 280</music:price>
+		    <music:tracklist>
+		        <music:track>Solitude</music:track>
+		        <music:track>Where or When</music:track>
+		        <music:track>Mood Indigo</music:track>
+		        <music:track>Prelude to a Kiss</music:track>
+		        <music:track>Tenderly</music:track>
+		        <music:track>Dancing in the Dark</music:track>
+		    </music:tracklist>
+			<music:description>Ellington Indigos is a 1958 jazz music:album by Duke Ellington. The stereo CD reissue released by Columbia (CK 4444) in 1987 contains a music:track listing and music:cover art that is drastically different from the original mono LP. A change in song order and two "new" songs — "Night and Day" and "All The Things You Are" — were added to the CD while "The Sky Fell Down" was omitted</music:description>
+		</music:album>
+		
+		<music:album id="82">
+		    <music:title>Be Good</music:title>
+			<music:cover>../images/songs/image81.png</music:cover>
+		    <music:artist>Gregory Porter</music:artist>
+		    <music:price>AED 275</music:price>
+		    <music:tracklist>
+		        <music:track>Painted on Canvas</music:track>
+		        <music:track>Be Good (Lion’s Song)</music:track>
+		        <music:track>On My Way to Harlem</music:track>
+		        <music:track>When Did You Learn</music:track>
+		        <music:track>Imitation of Life</music:track>
+		    </music:tracklist>
+			<music:description>Be Good is the second studio music:album by American jazz musician Gregory Porter. It was released through Motéma Music on 15 February 2012.[7] The music:album charted in Belgium, France and the Netherlands.</music:description>
+		</music:album>
+		
+		<music:album id="83">
+		    <music:title>Sarah Vaughan With Clifford Brown</music:title>
+			<music:cover>../images/songs/image79.png</music:cover>
+		    <music:artist>Sarah Vaughan</music:artist>
+		    <music:price>AED 215</music:price>
+		    <music:tracklist>
+		        <music:track>September Song</music:track>
+		        <music:track>Lullaby of Birdland</music:track>
+		        <music:track>Jim</music:track>
+		        <music:track>He’s My Guy</music:track>
+		        <music:track>April in Paris</music:track>
+		    </music:tracklist>
+			<music:description>Sarah Vaughan, reissued in 1991 as Sarah Vaughan with Clifford Brown, is a 1955 jazz music:album featuring singer Sarah Vaughan and trumpeter Clifford Brown, released on the EmArcy label. It was the only collaboration between the two musicians. Well received, though not without some criticism, the music:album was Vaughan's own favorite among her works through 1980.The music:album was inducted into the Grammy Hall of Fame in 1999.</music:description>
+		</music:album>
+		
+		<music:album id="84">
+		    <music:title>Kind of Blue</music:title>
+			<music:cover>../images/songs/image10.png</music:cover>
+		    <music:artist>Miles Davis</music:artist>
+		    <music:price>AED 355</music:price>
+		    <music:tracklist>
+		        <music:track>So What</music:track>
+		        <music:track>Freddie Freeloader</music:track>
+		        <music:track>Blue in Green</music:track>
+		        <music:track>All Blues</music:track>
+		        <music:track>Flamenco Sketches</music:track>
+		    </music:tracklist>
+			<music:description>Kind of Blue is a studio music:album by American jazz musician Miles Davis, released on August 17, 1959 by Columbia Records. For this music:album, Davis led a sextet featuring saxophonists John Coltrane and Julian "Cannonball" Adderley, pianist Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly replacing Evans on "Freddie Freeloader". The music:album was recorded at Columbia's 30th Street Studio in New York City in two sessions on March 2 and April 22, 1959.</music:description>
+		</music:album>
+		
+		<music:album id="85">
+		    <music:title>Speak No Evil</music:title>
+			<music:cover>../images/songs/image20.png</music:cover>
+		    <music:artist>Wayne Shorter</music:artist>
+		    <music:price>AED 190</music:price>
+		    <music:tracklist>
+		        <music:track>Witch Hunt</music:track>
+		        <music:track>Fee-Fi-Fo-Fum</music:track>
+		        <music:track>Dance Cadaverous</music:track>
+		        <music:track>Speak No Evil</music:track>
+		        <music:track>Infant Eyes</music:track>
+		        <music:track>Wild Flower</music:track>
+		    </music:tracklist>
+			<music:description>Speak No Evil is the sixth music:album by Wayne Shorter. It was released in June 1966 by Blue Note Records.The music combines elements of hard bop and modal jazz, and features Shorter on tenor saxophone, trumpeter Freddie Hubbard, pianist Herbie Hancock, bassist Ron Carter and drummer Elvin Jones. The music:cover photo is of Shorter's first wife, Teruko (Irene) Nakagami, whom he met in 1961.</music:description>
+		</music:album>
+		
+		<music:album id="86">
+		    <music:title>Head Hunters</music:title>
+			<music:cover>../images/songs/image62.png</music:cover>
+		    <music:artist>Herbie Hancock</music:artist>
+		    <music:price>AED 330</music:price>
+		    <music:tracklist>
+		        <music:track>Chameleon</music:track>
+		        <music:track>Watermelon Man</music:track>
+		        <music:track>Sly</music:track>
+		        <music:track>Vein Melter</music:track>
+		    </music:tracklist>
+			<music:description>Head Hunters is the twelfth studio music:album by American pianist, keyboardist and composer Herbie Hancock, released October 26, 1973, on Columbia Records. Recording sessions for the music:album took place in the evening at Wally Heider Studios and Different Fur Trading Co. in San Francisco, California.</music:description>
+		</music:album>
+		
+		<music:album id="87">
+		    <music:title>Return to Forever</music:title>
+			<music:cover>../images/songs/image54.png</music:cover>
+		    <music:artist>Chick Corea</music:artist>
+		    <music:price>AED 340</music:price>
+		    <music:tracklist>
+		        <music:track>Return to Forever</music:track>
+		        <music:track>Crystal Silence</music:track>
+		        <music:track>What Game Shall We Play Today</music:track>
+		        <music:track>Sometime Ago / La Fiesta</music:track>
+		    </music:tracklist>
+			<music:description>Return to Forever is a jazz fusion music:album by Chick Corea recorded over two days in February 1972 but was not released in the USA until 1975—Corea's fourth release for the label. It is the debut of a quintet featuring singer Flora Purim, flautist/saxophonist Joe Farrell, bassist Stanley Clarke and percussionist Airto Moreira, who would go on to record under the name Return to Forever.</music:description>
+		</music:album>
+		
+		<music:album id="88">
+		    <music:title>Song for My Father</music:title>
+			<music:cover>../images/songs/image2.png</music:cover>
+		    <music:artist>Horace Silver</music:artist>
+		    <music:price>AED 210</music:price>
+		    <music:tracklist>
+		        <music:track>Song for My Father</music:track>
+		        <music:track>The Natives Are Restless Tonight</music:track>
+		        <music:track>Calcutta Cutie</music:track>
+		        <music:track>Que Pasa</music:track>
+		        <music:track>The Kicker</music:track>
+		    </music:tracklist>
+			<music:description>Song for My Father is a 1965 music:album by the Horace Silver Quintet, released on the Blue Note label in 1965. The music:album was inspired by a trip that Silver had made to Brazil. The music:cover artwork features a photograph of Silver's father, John Tavares Silver, to whom the music:title composition was dedicated. "My mother was of Irish and Negro descent, my father of Portuguese origin," Silver recalls in the liner notes: "He was born on the island of Maio, one of the Cape Verde Islands."</music:description>
+		</music:album>
+	</music:genre>
+</store>

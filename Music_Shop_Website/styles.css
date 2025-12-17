@@ -1,0 +1,927 @@
+
+/* ======= colours ======= */
+:root {
+  --offwhite: #FFFFF0;
+  --cream: #FFE6A7;
+  --darkbrown: #432818;
+  --mediumbrown: #5A3A1E;
+  --darkestbrown: #2C1A0f;
+  --orange: #99582A;
+  --dark: #120D0A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*======= scroll animarions =======*/
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(40px);
+  }
+	to {
+		opacity: 1;
+		transform: translateY(0);
+  }
+}
+
+/* animation system */
+@media (prefers-reduced-motion: no-preference) {
+	.album-grid img,
+	.about-preview img,
+	.hours h2,
+	.hours table,
+	.shop-promo,
+	.about-preview > * {
+		animation: fadeInUp 0.8s ease forwards;
+		animation-timeline: view();
+		opacity: 0;
+  }
+}
+
+.album-grid img:nth-child(1) { 
+	animation-range: entry 35% cover 40%; 
+}
+.album-grid img:nth-child(2) { 
+	animation-range: entry 15% cover 20%; 
+}
+.album-grid img:nth-child(3) { 
+	animation-range: entry 35% cover 40%; 
+}
+
+/* ======= base styles ======= */
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'Arial', sans-serif;
+	overflow-x: hidden;
+}
+
+.main {
+	background: linear-gradient(to bottom,
+	var(--darkestbrown), var(--darkestbrown), var(--darkestbrown), 
+	var(--mediumbrown), var(--mediumbrown), var(--darkestbrown));
+}
+
+.store {
+	background: var(--offwhite);
+}
+
+.about {
+	background: var(--offwhite);
+}
+
+/*======= navbar =======*/
+/* YOU CAN REUSE FOR STICKY */
+.navbar {
+	padding: 0.4rem 2rem;
+	background: rgba(255, 255, 240, 0.35);
+	position: sticky;
+	top: 0;
+	z-index: 900;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px); /* for safari compatibility */
+}
+
+/*@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+	.navbar {
+		background: rgba(255, 255, 255, 0.45);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+  }
+}*/
+
+.nav-links {
+	color: var(--offwhite);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 3rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: var(--offwhite);
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 0.5rem;
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+	color: var(--cream);
+}
+
+.nav-links li:not(.logo-item) a {
+	padding-top: 0.7rem; 
+	transform: translateY(8px); 
+}
+
+.logo-item {
+	align-self: center; 
+}
+
+.logo-text:hover {
+	color: var(--offwhite);
+	opacity: 0.9;
+}
+
+.logo-text {
+	font-family: 'Arial Black', sans-serif;
+	color: var(--offwhite);
+	font-size: 1.8rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	padding: 0 1rem;
+}
+
+/* ======= topbar ======= */
+.top-bar {
+	z-index: 1000; 
+	position: relative; 
+	padding: 0.9rem 0.5rem;
+	background: var(--darkbrown);
+	border-bottom: 1px solid var(--cream);
+	height: 50px;
+}
+
+.top-bar-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	align-items: center;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.top-logo {
+	height: 45px;
+	width: auto;
+	display: flex;
+	align-items: center;
+}
+
+/* ======= user actions ======= */
+.user-actions {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	margin-left: 1rem;
+}
+
+.action-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.action-icon:hover {
+}
+
+/* ======= search container =======*/
+
+.search-container {
+  margin-left: auto;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+	padding: 0.5rem;
+	border: 1px solid var(--darkbrown);
+	border-radius: 10px 10px 10px 10px;
+	min-width: 200px;
+	width: 100%;
+}
+
+
+/* ======= main content structure ======= */
+main {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+section {
+	scroll-snap-align: start;
+	min-height: 75vh;
+	padding: 4rem 2rem;
+}
+
+
+/* ===!!!!! BEGINNING OF INDEX.HTML !!!!!=== */
+
+/* ======= hero section ======= */
+.hero {
+	height: 100vh; 
+	width: 100%;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+		url('images/recordbackground.jpg') center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: var(--offwhite);
+	padding: 0 2rem;
+  
+	position: relative;
+	top: -80px; 
+	margin-bottom: -80px; 
+	z-index: 1; 
+	margin-top: 0;
+}
+
+.hero-content {
+	animation: fadeInUp 1.5s cubic-bezier(0.2, 0.8, 0.4, 1) both;
+	animation-delay: 0.2s;
+		max-width: 800px;
+		margin: 0 auto;
+}
+
+.hero h1 {
+	font-size: clamp(3rem, 8vw, 6rem);
+	font-weight: 900;
+	line-height: 1.1;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+	font-size: clamp(1rem, 2vw, 1.5rem);
+	line-height: 1.6;
+	max-width: 600px;
+	margin: 0 auto 2rem;
+	animation: fadeInUp 1.5s cubic-bezier(0.2, 0.8, 0.4, 1) both;
+	animation-delay: 0.8s; 
+	opacity: 0; 
+}
+
+/* ======= albums featured ======= */
+.featured{
+	animation-range: entry 20% cover 35%;
+	display: flex;
+	justify-content: flex-start; 
+	align-items: center;
+	padding: 1rem 2rem 3rem; 
+	gap: 2rem; 
+	color: var(--offwhite);
+	margin-top: -2rem;
+
+}
+
+.album-grid {
+	display: flex;
+	gap: 1rem; 
+	align-items: center;
+	margin-left: 2rem; 
+}
+
+.album-grid img {
+	width: 275px; 
+	height: 275px;
+	border-radius: 12px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+	object-fit: cover;
+	transition: transform 0.3s ease;
+	opacity: 0; 
+}
+
+.album-grid .center-img {
+	width: 325px; 
+	height: 325px;
+}
+
+.album-grid img:hover {
+	transform: scale(1.05);
+}
+ 
+ /* ======= shop promo ======= */
+ .shop-promo{
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 20% cover 35%;
+	max-width: 280px;
+	margin-left: 3rem;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: var(--offwhite);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+}
+
+.shop-promo p {
+	margin-bottom: 1.5rem;
+}
+
+.shop-promo .btn {
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 30% cover 40%;
+	text-align: center;
+	font-size: 1rem;
+	border: none;
+	border-radius: 999px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 0.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+/* ======= opening hours ======= */
+.hours {
+	animation-range: entry 5% cover 15%;
+	text-align: center;
+	color: var(--cream);
+}
+
+.hours table {
+	color: var(--offwhite);
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	border-collapse: separate; 
+	border-spacing: 0;
+	border: 3px solid var(--cream); 
+	animation: fadeInUp 0.8s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 30% cover 40%; 
+	opacity: 0; 
+}
+
+.hours th, .hours td {
+	border: 1px solid var(--cream);
+	padding: 1rem;
+}
+
+.hours th {
+	background-color: rgba(111, 29, 27, 0.3); 
+	color: var(--cream);
+	font-weight: 500;
+}
+
+.hours h2 {
+	animation: fadeInUp 0.8s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 20% cover 30%;
+	opacity: 0; /* makes it so that it starts hidden */
+}
+
+/*equalises the table */
+.hours th:nth-child(1),
+.hours td:nth-child(1) {
+	width: 50%;
+}
+
+.hours th:nth-child(2),
+.hours td:nth-child(2) {
+	width: 50%;
+}
+
+/* ======= shop description stuff ======== */
+.shop-description {
+    margin-top: -50px; 
+}
+
+.shop-description-description p {
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 20% cover 30%;
+	opacity: 0; 
+    max-width: 600px; 
+    margin: 0 auto 20px; 
+    font-size: 1.3em; 
+    line-height: 1.5;
+}
+
+.shop-description-description, .shop-description-list {;
+	color: var(--offwhite);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.shop-description-list ol {
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 30% cover 40%;
+	opacity: 0; 
+	color: var(--cream);
+    list-style: decimal;
+    list-style-position: inside; 
+    font-size: 1.2em;
+    text-align: center; 
+}
+/* ======= about us preview ======= */
+.about-preview > * {
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 20% cover 30%;
+		opacity: 0; 
+}
+
+.about-preview {
+animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 20% cover 30%;
+	display: flex;
+	align-items: center;
+	gap: 0; 
+}
+
+.about-content {
+	flex: 1;
+	max-width: 500px; 
+	padding-right: 3rem;
+		font-size: 1.5rem;
+		line-height: 1.25;
+	color: var(--offwhite);
+}
+
+.about-content a {
+	animation: fadeInUp 0.5s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 30% cover 40%;
+	color: var(--cream);
+	text-decoration: none; 
+	font-weight: 500;
+	transition: color 0.3s ease;
+	margin-top: 1.5rem;
+	align-self: flex-start; 
+	opacity: 0;
+}
+
+.about-content a:hover {
+	color: var(--orange); 
+	text-decoration: underline; 
+}
+
+.about-preview img {
+	animation: fadeInUp 0.4s ease forwards;
+	animation-timeline: view();
+	animation-range: entry 15% cover 20%;
+	order: 2; 
+	max-width: 750px;
+	margin-left: auto; 
+	border-radius: 8px;
+		opacity: 0; 
+}
+
+.hide {
+	display: none;
+}
+
+/* ===!!!!!!! END OF INDEX.HTML !!!!!!!=== */
+
+
+/* ===!!!!!!! START OF ABOUT.HTML !!!!!!!=== */ 
+
+/* ===== about us section ===== */
+/* i had to overcomplicate this bcz there was a weird tint 
+so please ignore these lines and also do not touch them yeah */
+.about-section {
+    background: url('images/about-bg.jpg') center/cover no-repeat;
+    color: var(--offwhite);
+    height: 94vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: -70px;
+}
+
+.about-container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin: 50px 0 20px;
+}
+
+.about-section p,
+.objective-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    word-spacing: 4px;
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+
+/* on quotes */
+.quote-container {
+    max-width: 800px;
+    margin: 20px auto 0;
+}
+
+.about-quote {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    margin: -5px 20px 0 0;
+}
+
+/* ===== meet our team section ===== */
+/* this also. i think i put a filter somewhere above so if you guys
+could see if you could find that then it would fix it i think */
+.team-objective-wrapper {
+    background: url('images/meetourteam.jpg') center/cover no-repeat;
+    color: var(--offwhite);
+    padding: 0 0;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+	margin-bottom: -50px;
+	padding-bottom: 150px;
+}
+
+.team-section,
+.objective-section {
+    background: transparent;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-section {
+    min-height: 50vh;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+	margin-top: 50px;
+}
+
+.team-section h2 {
+    padding: 78px 0;
+    font-size: 2rem;
+    color: var(--orange);
+    margin-bottom: 10px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    font-style: italic;
+    min-height: 40px;
+    color: black;
+    margin-top: 5px;
+}
+/* ===== our objective section ===== */
+.objective-section {
+    text-align: left;
+    padding: 50px 10px 20px;
+    max-width: 1100px;
+    margin: 10px auto -200px;
+}
+
+.objective-section h2 {
+	text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--orange);
+    margin-bottom: 1px;
+}
+
+.objective-section p {
+    text-align: justify;
+    color: black;
+}
+/* ===!!!!!!! END OF ABOUT.HTML !!!!!!!=== */
+
+
+/* ===!!!!!!! START OF STORE.XSL !!!!!!!=== */
+storedisplay {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100vh;
+}
+
+/* ======= overall page layout ======= */
+.store-field {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	height: auto;
+}
+
+/* ======= category layout ======= */
+.category-field {
+	width: 200px;
+	padding: 20px;
+	border-right: 2px solid #D3D3D3;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.album-content-field {
+	flex: 1;
+	margin-bottom: 10px;
+	height: auto;
+}
+
+/* ======= category item layout ======= */
+.category-item {
+	margin-bottom: 15px;
+	font-size: 15.4px;
+	color: black;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	padding: 5px 0;
+}
+
+/* ======= category item - hover effect ======= */
+.category-item:hover {
+	color: #bb9457;
+}
+
+/* ======= store description text ======= */
+.content-text {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+/* ======= album cell layout ======= */
+.album-cell {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding: 10px;
+    text-align: left; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #e6d8c9;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+	gap: 15px; 
+}
+
+.album-description {
+    margin-top: 30px; 
+    border-radius: 8px;
+}
+
+/* ======= album cover styling ======= */
+.album-cover-cell {
+	width: 8cm;
+	height: 8cm;
+	margin-right: 15px;
+	object-fit: cover;
+	border-radius: 8px;
+	flex-shrink: 0;
+}
+
+/* ======= genre field styling ======= */
+.genre-field {
+	width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f6f1ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+	padding-right: 10px;
+}
+
+.album-name-cell {
+    font-size: 18.4px;
+    font-weight: bold;
+    margin-bottom: 5px;
+	line-height: 1.8;
+}
+
+.album-title-cell {
+    padding-right: 5px;
+}
+
+.album-artist-cell {
+    font-size: 18.4px;
+    font-weight: bold;
+}
+
+.album-price-cell {
+    font-size: 16.5px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+/* ======= add to cart styling ======= */
+.add-to-cart {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+	
+}
+/* ======= increment and decrement button ======= */
+.quantity-button {
+	font-size: 22.5px;
+	color: white;
+	width: 30px;
+	height: 30px;
+	background-color: #99582a;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 8px; 
+	border: none;
+}
+
+.quantity-button:hover {
+	background: gray;
+	transform: translateY(-2px);
+}
+
+/* ===!!!!!!! END OF STORE.XSL !!!!!!!=== */
+
+/* ======= footer ======= */
+footer {
+	background: var(--dark);
+	color: var(--offwhite);
+	padding: 3rem 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.social-icons {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.social-icons a {
+	color: var(--offwhite);
+	text-decoration: none;
+}
+
+.copyright {
+	grid-column: 1 / -1;
+	text-align: center;
+	padding-top: 2rem;
+	border-top: 1px solid #444;
+}
+
+/* ======= buttons ======= */
+.btn {
+	display: inline-block;
+	padding: 0.8rem 2rem;
+	background: var(--cream);
+	color: black;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-top: 1rem;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background: var(--offwhite);
+	transform: translateY(-2px);
+}
+
+/* ======= side navigation======== */
+.side-nav {
+	position: fixed;
+	top:40%;
+	left:5px;
+	padding:10px;
+	z-index: 1000;
+	opacity: 50%;
+	transform: translateX(-20px);
+	transition: opacity 0.4s ease, transform 0.4s ease;
+
+}
+
+.side-nav:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.side-nav::before {
+	content: '';
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	height:200px;
+	left:10px;
+	width:2px;
+	background-color:#FFFFF0;
+}
+
+.side-nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+.side-nav li {
+	position:relative;
+	margin: 20px 0;
+	padding-left:22px;
+}
+
+.side-nav li::before {
+	content: '';
+	position:absolute;
+	left:8px;
+	top:50%;
+	transform:translateY(-50%);
+	width:7px;
+	height:7px;
+	background-color: #5A3A1E;
+	border-radius: 50%;
+	border: 1px solid white;
+	box-shadow: 0 0 0 1px #5A3A1E;
+}
+
+.side-nav a {
+	text-decoration: none;
+	color: rgba(255, 255, 240, 0.7);
+	font-family:sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	background-color: transparent;
+	padding:0;
+	border-radius:0;
+	transition: background-color 0.3s, color 0.3s;
+	display: inline;
+	white-space: nowrap;
+}
+
+.side-nav a:hover {
+	color:#fffff0;
+}
+
+#featured,
+#hours,
+#shop,
+#about {
+  scroll-margin-top:100px;
+}
+
+
+/* ======= animation controls ======= */
+section, .album-grid img, .about-preview > *, .hero-content, .hero-subtitle, .hours table, .hours td{
+	animation-iteration-count: 1;
+}
